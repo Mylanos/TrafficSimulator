@@ -11,6 +11,7 @@ package ija.projekt;
 
 import java.util.AbstractMap;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 /**
@@ -20,43 +21,20 @@ import java.util.List;
  */
 public class MyLine implements Line {
     private String lineID;
-    private List<Street> streets;
-    private List<Stop> stops;
-    private List<AbstractMap.SimpleImmutableEntry<Street, Stop>> routes;
+    private List<MyStreet> streets;
 
     public MyLine(String lineID) {
         this.lineID = lineID;
         this.streets = new ArrayList<>();
-        this.stops = new ArrayList<>();
-        this.routes = new ArrayList<>();
     }
 
     @Override
-    public boolean addStop(Stop stop) {
-        if (stops.isEmpty()) {
-            stops.add(stop);
-            streets.add(stop.getStreet());
-            routes.add(new AbstractMap.SimpleImmutableEntry<>(stop.getStreet(), stop));
-            return true;
-        }
-        if(streets.get(streets.size()-1).follows(stop.getStreet())){
-            stops.add(stop);
-            streets.add(stop.getStreet());
-            routes.add(new AbstractMap.SimpleImmutableEntry<>(stop.getStreet(), stop));
-            return true;
-        }
-        return false;
-    }
-
-    @Override
-    public boolean addStreet(Street s) {
+    public boolean addStreet(MyStreet s) {
         if (streets.isEmpty()) {
             streets.add(s);
-            routes.add(new AbstractMap.SimpleImmutableEntry<>(s, null));
             return true;
         }
         if(streets.get(streets.size()-1).follows(s)){
-            routes.add(new AbstractMap.SimpleImmutableEntry<>(s, null));
             streets.add(s);
             return true;
         }
@@ -64,8 +42,32 @@ public class MyLine implements Line {
     }
 
     @Override
-    public List<Street> getStreets() {
+    public List<MyStreet> getStreets() {
         return streets;
+    }
+
+    @Override
+    public String getID() {
+        return lineID;
+    }
+
+    @Override
+    public boolean containsStreet(MyStreet searchedStreet) {
+        for (MyStreet street : streets){
+            if(street.equals(searchedStreet)){
+                return true;
+            }
+        }
+        return false;
+    }
+
+    @Override
+    public List<Stop> getStops() {
+        List<Stop> stops = new ArrayList<>();
+        for(Street street : streets){
+            stops.addAll(street.getStops());
+        }
+        return stops;
     }
 
     @Override
@@ -77,9 +79,4 @@ public class MyLine implements Line {
         return length;
     }
 
-
-    @Override
-    public List<AbstractMap.SimpleImmutableEntry<Street, Stop>> getRoute() {
-        return new ArrayList<AbstractMap.SimpleImmutableEntry<Street, Stop>>(routes);
-    }
 }

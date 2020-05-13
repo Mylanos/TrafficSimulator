@@ -8,14 +8,16 @@
 
 package ija.projekt;
 
+import javafx.scene.shape.Circle;
 import javafx.scene.shape.Shape;
+import javafx.scene.text.Text;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class MyStop implements Stop, Drawable {
     private String stopID;
     private Coordinate coordinateStop;
-    private Street street;
 
     public MyStop(String stopID, Coordinate coordinateStop) {
         this.stopID = stopID;
@@ -37,16 +39,6 @@ public class MyStop implements Stop, Drawable {
     }
 
     @Override
-    public void setStreet(Street street) {
-        this.street = street;
-    }
-
-    @Override
-    public Street getStreet() {
-        return street;
-    }
-
-    @Override
     public boolean equals(Object obj) {
         if ((obj == null) || (obj.getClass() != this.getClass())) {
             return false;
@@ -61,6 +53,9 @@ public class MyStop implements Stop, Drawable {
 
     @Override
     public List<Shape> getGUI() {
-        return null;
+        List<Shape> shape = new ArrayList<>();
+        shape.add(new Circle(coordinateStop.getX(), coordinateStop.getY(), 10, javafx.scene.paint.Color.BLUE));
+        shape.add(new Text(coordinateStop.getX()-20, coordinateStop.getY()-13, stopID));
+        return shape;
     }
 }

@@ -33,6 +33,24 @@ public class Coordinate {
         return new Coordinate(x, y);
     }
 
+    public boolean isOnLineBetween(Coordinate a, Coordinate b){
+        double distanceBeginningMiddle = a.getDistance(this);
+        double distanceMiddleEnd = this.getDistance(b);
+        double distanceBeginningEnd = a.getDistance(b);
+        if(distanceBeginningMiddle + distanceMiddleEnd ==  distanceBeginningEnd){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+    public Coordinate getCoordinateByDistance(double distance, Coordinate coord){
+        double x1 = x + (coord.getX() - x) * distance;
+        double y2 = y + (coord.getY() - y) * distance;
+        return new Coordinate(x1, y2);
+    }
+
     /**
      * Vrací hodnotu souřadnice x.
      * @return souřadnice x
@@ -95,7 +113,6 @@ public class Coordinate {
     public double diffY(Coordinate c) {
         return this.y - c.getY();
     }
-
 
 }
 

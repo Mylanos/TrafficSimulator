@@ -26,21 +26,11 @@ public interface Stop {
      */
     String getId();
 
+
     /**
      * Vrátí pozici zastávky.
      * @return Pozice zastávky. Pokud zastávka existuje, ale dosud nemá umístění, vrací null.
      */
     Coordinate getCoordinate();
 
-    /**
-     * Nastaví ulici, na které je zastávka umístěna.
-     * @param s Ulice, na které je zastávka umístěna.
-     */
-    void setStreet(Street s);
-
-    /**
-     * Vrátí ulici, na které je zastávka umístěna.
-     * @return Ulice, na které je zastávka umístěna. Pokud zastávka existuje, ale dosud nemá umístění, vrací null.
-     */
-    Street getStreet();
 }

@@ -1,0 +1,373 @@
+{
+  "streets": {
+    "Ulica6": {
+      "streetID": "Ulica6",
+      "coordinates": [
+        {
+          "x": 420.0,
+          "y": 200.0
+        },
+        {
+          "x": 350.0,
+          "y": 200.0
+        }
+      ],
+      "stops": []
+    },
+    "Ulica5": {
+      "streetID": "Ulica5",
+      "coordinates": [
+        {
+          "x": 600.0,
+          "y": 600.0
+        },
+        {
+          "x": 400.0,
+          "y": 500.0
+        },
+        {
+          "x": 420.0,
+          "y": 200.0
+        }
+      ],
+      "stops": []
+    },
+    "Ulica4": {
+      "streetID": "Ulica4",
+      "coordinates": [
+        {
+          "x": 400.0,
+          "y": 600.0
+        },
+        {
+          "x": 600.0,
+          "y": 600.0
+        }
+      ],
+      "stops": []
+    },
+    "Ulica3": {
+      "streetID": "Ulica3",
+      "coordinates": [
+        {
+          "x": 400.0,
+          "y": 600.0
+        },
+        {
+          "x": 350.0,
+          "y": 200.0
+        },
+        {
+          "x": 10.0,
+          "y": 10.0
+        }
+      ],
+      "stops": []
+    },
+    "Ulica2": {
+      "streetID": "Ulica2",
+      "coordinates": [
+        {
+          "x": 300.0,
+          "y": 300.0
+        },
+        {
+          "x": 200.0,
+          "y": 500.0
+        },
+        {
+          "x": 400.0,
+          "y": 600.0
+        }
+      ],
+      "stops": []
+    },
+    "Ulica1": {
+      "streetID": "Ulica1",
+      "coordinates": [
+        {
+          "x": 10.0,
+          "y": 10.0
+        },
+        {
+          "x": 300.0,
+          "y": 300.0
+        }
+      ],
+      "stops": []
+    }
+  },
+  "stops": {
+    "Chirana": {
+      "stopID": "Chirana",
+      "coordinateStop": {
+        "x": 100.0,
+        "y": 100.0
+      }
+    }
+  },
+  "buses": [
+    {
+      "position": {
+        "x": 10.0,
+        "y": 10.0
+      },
+      "distance": 0.0,
+      "speed": 10.0,
+      "beginPosition": {
+        "x": 10.0,
+        "y": 10.0
+      },
+      "endPosition": {
+        "x": 10.0,
+        "y": 10.0
+      },
+      "line": {
+        "lineID": "Linkapepega",
+        "streets": [
+          {
+            "streetID": "Ulica1",
+            "coordinates": [
+              {
+                "x": 10.0,
+                "y": 10.0
+              },
+              {
+                "x": 300.0,
+                "y": 300.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Chirana",
+                "coordinateStop": {
+                  "x": 100.0,
+                  "y": 100.0
+                }
+              }
+            ]
+          },
+          {
+            "streetID": "Ulica2",
+            "coordinates": [
+              {
+                "x": 300.0,
+                "y": 300.0
+              },
+              {
+                "x": 200.0,
+                "y": 500.0
+              },
+              {
+                "x": 400.0,
+                "y": 600.0
+              }
+            ],
+            "stops": []
+          },
+          {
+            "streetID": "Ulica3",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 350.0,
+                "y": 200.0
+              },
+              {
+                "x": 10.0,
+                "y": 10.0
+              }
+            ],
+            "stops": []
+          }
+        ]
+      }
+    },
+    {
+      "position": {
+        "x": 400.0,
+        "y": 600.0
+      },
+      "distance": 0.0,
+      "speed": 12.0,
+      "beginPosition": {
+        "x": 400.0,
+        "y": 600.0
+      },
+      "endPosition": {
+        "x": 350.0,
+        "y": 200.0
+      },
+      "line": {
+        "lineID": "Cachticka strela",
+        "streets": [
+          {
+            "streetID": "Ulica4",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 600.0,
+                "y": 600.0
+              }
+            ],
+            "stops": []
+          },
+          {
+            "streetID": "Ulica5",
+            "coordinates": [
+              {
+                "x": 600.0,
+                "y": 600.0
+              },
+              {
+                "x": 400.0,
+                "y": 500.0
+              },
+              {
+                "x": 420.0,
+                "y": 200.0
+              }
+            ],
+            "stops": []
+          },
+          {
+            "streetID": "Ulica6",
+            "coordinates": [
+              {
+                "x": 420.0,
+                "y": 200.0
+              },
+              {
+                "x": 350.0,
+                "y": 200.0
+              }
+            ],
+            "stops": []
+          }
+        ]
+      }
+    }
+  ],
+  "lines": [
+    {
+      "lineID": "Linkapepega",
+      "streets": [
+        {
+          "streetID": "Ulica1",
+          "coordinates": [
+            {
+              "x": 10.0,
+              "y": 10.0
+            },
+            {
+              "x": 300.0,
+              "y": 300.0
+            }
+          ],
+          "stops": [
+            {
+              "stopID": "Chirana",
+              "coordinateStop": {
+                "x": 100.0,
+                "y": 100.0
+              }
+            }
+          ]
+        },
+        {
+          "streetID": "Ulica2",
+          "coordinates": [
+            {
+              "x": 300.0,
+              "y": 300.0
+            },
+            {
+              "x": 200.0,
+              "y": 500.0
+            },
+            {
+              "x": 400.0,
+              "y": 600.0
+            }
+          ],
+          "stops": []
+        },
+        {
+          "streetID": "Ulica3",
+          "coordinates": [
+            {
+              "x": 400.0,
+              "y": 600.0
+            },
+            {
+              "x": 350.0,
+              "y": 200.0
+            },
+            {
+              "x": 10.0,
+              "y": 10.0
+            }
+          ],
+          "stops": []
+        }
+      ]
+    },
+    {
+      "lineID": "Cachticka strela",
+      "streets": [
+        {
+          "streetID": "Ulica4",
+          "coordinates": [
+            {
+              "x": 400.0,
+              "y": 600.0
+            },
+            {
+              "x": 600.0,
+              "y": 600.0
+            }
+          ],
+          "stops": []
+        },
+        {
+          "streetID": "Ulica5",
+          "coordinates": [
+            {
+              "x": 600.0,
+              "y": 600.0
+            },
+            {
+              "x": 400.0,
+              "y": 500.0
+            },
+            {
+              "x": 420.0,
+              "y": 200.0
+            }
+          ],
+          "stops": []
+        },
+        {
+          "streetID": "Ulica6",
+          "coordinates": [
+            {
+              "x": 420.0,
+              "y": 200.0
+            },
+            {
+              "x": 350.0,
+              "y": 200.0
+            }
+          ],
+          "stops": []
+        }
+      ]
+    }
+  ]
+}

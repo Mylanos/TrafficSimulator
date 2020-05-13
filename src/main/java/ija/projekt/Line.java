@@ -21,22 +21,28 @@ public interface Line {
     static Line defaultLine(String id){
         return new MyLine(id);
     }
-    /**
-     * Přidá do seznamu zastávek novou zastávku.
-     * @param stop Nově přidávaná zastávka.
-     */
-    boolean addStop(Stop stop);
+
     /**
      * Přidá ulici do mapy.
      * @param s Objekt reprezentující ulici.
      */
-    boolean addStreet(Street s);
+    boolean addStreet(MyStreet s);
 
     /**
      * Vráti zoznam ulíc v linke
      * @return zoznam ulíc
      */
-    public List<Street> getStreets();
+    public List<MyStreet> getStreets();
+
+    /**
+     * Vráti názov linky
+     * @return názov linky
+     */
+    public String getID();
+
+    public boolean containsStreet(MyStreet searchedStreet);
+
+    public List<Stop> getStops();
 
     /**
      * vráti dĺžku celej linky
@@ -44,13 +50,4 @@ public interface Line {
      */
     public double getLength();
 
-    /**
-     * Vrací trasu linky (seznam ulic, kterými linka projíždí, a její zastávky).
-     * Každý průjezd je vždy dvojice uložená s využitím AbstractMap.SimpleImmutableEntry.
-     * Pokud linka ulicí jen projíždí, je v příslušné dvojici na pozici zastávky hodnota null.
-     *
-     * @returns Trasa linky. Vrací defenzivní kopii trasy nebo nemodifikovatelný seznam - úpravy
-     * vráceného seznamu nemají žádny vliv na vnitřní informace o lince, příp. nejsou možné.
-     */
-    List<AbstractMap.SimpleImmutableEntry<Street,Stop>> getRoute();
 }

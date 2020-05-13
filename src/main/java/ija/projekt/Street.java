@@ -48,11 +48,13 @@ public interface Street {
      */
     List<Stop> getStops();
 
+    public Coordinate getCoordinateOnStreet(double distance);
+
     /**
      * Přidá do seznamu zastávek novou zastávku.
      * @param stop Nově přidávaná zastávka.
      */
-    boolean addStop(Stop stop);
+    void addStop(double distance, String name);
 
     /**
      * Testuje, zda ulice navazuje na zadanou ulici. Ulice na sebe navazují, pokud dva libovolné konce ulice this a s mají stejné souřadnice.
