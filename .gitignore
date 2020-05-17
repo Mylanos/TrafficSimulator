@@ -13,7 +13,7 @@
 .idea/**/shelf
 
 # Generated files
-.idea/**/contentModel.xml
+.idea/**/contentModel.xmlgit ad
 
 # Sensitive or high-churn files
 .idea/**/dataSources/

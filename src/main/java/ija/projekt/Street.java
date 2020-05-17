@@ -1,4 +1,14 @@
+/*
+ * Soubor: Street.java
+ * Ukol c. 2
+ * Autor: Marek Ziska, xziska03@stud.fit.vutbr.cz
+ * Skupina: 2BIB
+ * Datum 17.05.2020
+ */
+
 package ija.projekt;
+
+import javafx.scene.shape.Shape;
 
 import java.util.List;
 
@@ -8,15 +18,17 @@ import java.util.List;
  */
 public interface Street {
 
-    static Street defaultStreet(String id, Coordinate... coordinates) {
-        for (int i = 0; i < coordinates.length - 1; i++) {
-            if (!((coordinates[i + 1].getX() - coordinates[i].getX()) == 0 ||
-                    coordinates[i + 1].getY() - coordinates[i].getY() == 0)) {
-                return null;
-            }
-        }
-        return new MyStreet(id, coordinates);
-    }
+    /**
+     * Vracia oneskorenie na ulicy.
+     * @return veľkosť oneskorenia
+     */
+    int getDelay();
+
+    /**
+     * Nastaví oneskorenie na ulici.
+     * @param delay oneskorenie
+     */
+    void setDelay(int delay);
 
     /**
      * Vrací souřadnice koncu ulice.
@@ -46,13 +58,19 @@ public interface Street {
      * Vrátí seznam zastávek na ulici.
      * @return Seznam zastávek na ulici. Pokud ulize nemá žádnou zastávku, je seznam prázdný.
      */
-    List<Stop> getStops();
+    List<MyStop> getStops();
 
+    /**
+     * Vráti polohu na ulicy v danej vzdialenosti
+     * @param distance vzdialenosť
+     * @return poloha
+     */
     public Coordinate getCoordinateOnStreet(double distance);
 
     /**
      * Přidá do seznamu zastávek novou zastávku.
-     * @param stop Nově přidávaná zastávka.
+     * @param distance vzdialenosť v akej bude zastávka.
+     * @param name názov zastávky
      */
     void addStop(double distance, String name);
 
@@ -61,8 +79,24 @@ public interface Street {
      * @param s Testovaná ulice
      * @return True, pokud na sebe ulice navazují, jinak false.
      */
-    boolean follows(Street s);
+    boolean follows(MyStreet s);
 
-    public double getStreetLength();
+    /**
+     * Počíta dĺžku ulice
+     * @return dľžká ulice
+     */
+    double getStreetLength();
+
+    /**
+     * Vráti element ulice, zvýraznený farbou
+     * @return element ulice
+     */
+    Shape getHighlightedGUI();
+
+    /**
+     * Vrati elementy reprezentujuce ulicu, tvoriace GUI.
+     * @return GUI elementy
+     */
+    List<Shape> getGUIstreet();
 
 }

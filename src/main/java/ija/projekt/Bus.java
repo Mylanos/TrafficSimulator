@@ -1,29 +1,38 @@
+/*
+ * Soubor: Bus.java
+ * Ukol c. 2
+ * Autor: Marek Ziska, xziska03@stud.fit.vutbr.cz
+ * Skupina: 2BIB
+ * Datum 17.05.2020
+ */
+
 package ija.projekt;
 
-import com.google.gson.internal.$Gson$Preconditions;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Shape;
 
-import java.awt.*;
 import java.time.LocalTime;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
 import java.util.List;
 
 public class Bus implements Drawable, TimeUpdate{
     private Coordinate position;
-    private double distance = 0;
+    private double distance;
     private double speed;
     private transient double originalSpeed;
-    private Line line;
+    private MyLine line;
     private int workShiftLength;
     private transient List<Shape> gui;
     private transient Coordinate closestStop;
-    private transient Street currentStreet;
+    private transient MyStreet currentStreet;
     private transient int timeAtStop;
     private transient LinkedHashMap<Integer, Coordinate> moveSchedule;
     private transient LinkedHashMap<Integer, Stop> stopSchedule;
+    private transient int dispatchTime;
 
-    public Bus(double speed, Line busLine, int workShift){
+    public Bus(double speed, MyLine busLine, int workShift){
+        this.distance = 0;
         this.position = busLine.getStreets().get(0).getCoordinates().get(0);
         this.currentStreet = busLine.getStreets().get(0);
         this.speed = speed;
@@ -32,9 +41,17 @@ public class Bus implements Drawable, TimeUpdate{
         this.moveSchedule = new LinkedHashMap<>();
         this.stopSchedule = new LinkedHashMap<>();
         this.workShiftLength = workShift;
-        this.calculateScheduleTimes();
         gui = new ArrayList<>();
-        gui.add(new Circle(position.getX(), position.getY(), 10, javafx.scene.paint.Color.RED));
+        gui.add(new Circle(position.getX(), position.getY(), 7, javafx.scene.paint.Color.RED));
+    }
+
+    public void initTransientVars(){
+        this.originalSpeed = speed;
+        gui = new ArrayList<>();
+        gui.add(new Circle(position.getX(), position.getY(), 7, javafx.scene.paint.Color.RED));
+        this.currentStreet = line.getStreets().get(0);
+        this.moveSchedule = new LinkedHashMap<>();
+        this.stopSchedule = new LinkedHashMap<>();
     }
 
     public void restartPosition(){
@@ -48,8 +65,15 @@ public class Bus implements Drawable, TimeUpdate{
         distance = 0;
     }
 
-    public LinkedHashMap<Integer, Coordinate> getMoveSchedule(){
-        return moveSchedule;
+    public void clearSchedule(){
+        moveSchedule.clear();
+        stopSchedule.clear();
+        this.moveSchedule = new LinkedHashMap<>();
+        this.stopSchedule = new LinkedHashMap<>();
+    }
+
+    public void setDispatchTime(int dispatchTime){
+        this.dispatchTime = dispatchTime;
     }
 
     /**
@@ -57,9 +81,10 @@ public class Bus implements Drawable, TimeUpdate{
      */
     public void calculateScheduleTimes(){
         double originalDistance = distance;
+        Coordinate originalPosition = position;
         Coordinate recentPosition = null;
         distance = 0;
-        int counter = 0;
+        int counter = this.dispatchTime;
         int shift = 0;
         moveSchedule.put(counter, position);
         while(shift <= workShiftLength){
@@ -88,13 +113,13 @@ public class Bus implements Drawable, TimeUpdate{
             }
         });
         distance = originalDistance;
-        position = line.getStreets().get(0).getCoordinates().get(0);
+        position = originalPosition;
     }
 
     public String getFormattedBusSchedule(StopWatch stopwatch){
         int columnWidth = 23;
         StringBuilder scheduleString = new StringBuilder();
-        scheduleString.append(String.format("\t\t%s\n\n", "Schedule of " + line.getID()));
+        scheduleString.append(String.format("\t\t\t%s\n\n", "Schedule of line " + line.getID()));
         scheduleString.append(String.format("%1$12s %2$13s %3$13s\n", "BUS STOP", "ARRIVES", "DEPARTS"));
         stopSchedule.forEach((key, value) -> {
             String arrival = stopwatch.getSpecificTimeInString(key);
@@ -169,7 +194,7 @@ public class Bus implements Drawable, TimeUpdate{
         return position;
     }
 
-    public Line getLine(){
+    public MyLine getLine(){
         return line;
     }
 
@@ -178,7 +203,7 @@ public class Bus implements Drawable, TimeUpdate{
         closestStop = null;
         for (Stop stop : currentStreet.getStops()){
             if(position.getDistance(stop.getCoordinate()) < closestDistance){
-                if(stop.getCoordinate().isOnLineBetween(currentStreet.getCoordinates().get(0), currentStreet.getCoordinates().get(1))){
+                if(stop.getCoordinate().isOnLineBetweenDouble(currentStreet.getCoordinates().get(0), currentStreet.getCoordinates().get(1))){
                     closestStop = stop.getCoordinate();
                 }
             }
@@ -187,8 +212,8 @@ public class Bus implements Drawable, TimeUpdate{
     }
 
     public void findCurrentStreet(){
-        for (Street street: line.getStreets()){
-            if(position.isOnLineBetween(street.getCoordinates().get(0), street.getCoordinates().get(1))){
+        for (MyStreet street: line.getStreets()){
+            if(position.isOnLineBetweenDouble(street.getCoordinates().get(0), street.getCoordinates().get(1))){
                 currentStreet = street;
             }
         }
@@ -214,7 +239,7 @@ public class Bus implements Drawable, TimeUpdate{
                 speed = originalSpeed;
             }
         }
-        distance += speed;
+        distance += (speed/currentStreet.getDelay());
         return this.getNextPosition();
     }
     @Override

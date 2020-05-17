@@ -3,8 +3,9 @@
  * Ukol c. 2
  * Autor: Marek Ziska, xziska03@stud.fit.vutbr.cz
  * Skupina: 2BIB
- * Datum 02.04.2020
+ * Datum 17.05.2020
  */
+
 package ija.projekt;
 
 /**
@@ -33,7 +34,31 @@ public class Coordinate {
         return new Coordinate(x, y);
     }
 
-    public boolean isOnLineBetween(Coordinate a, Coordinate b){
+    /**
+     * Zisťuje či bod leži medzi dvoma bodmi, pracuje s celými číslami
+     * @param a prvý bod
+     * @param b druhý bod
+     * @return True ak tam leží, inak false
+     */
+    public boolean isOnLineBetweenInt(Coordinate a, Coordinate b){
+        int distanceBeginningMiddle = (int) a.getDistance(this);
+        int distanceMiddleEnd = (int) this.getDistance(b);
+        int distanceBeginningEnd = (int) a.getDistance(b);
+        if(distanceBeginningMiddle + distanceMiddleEnd ==  distanceBeginningEnd){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+    /**
+     * Zisťuje či bod leži medzi dvoma bodmi, pracuje s desatinnými číslami
+     * @param a prvý bod
+     * @param b druhý bod
+     * @return True ak tam leží, inak false
+     */
+    public boolean isOnLineBetweenDouble(Coordinate a, Coordinate b){
         double distanceBeginningMiddle = a.getDistance(this);
         double distanceMiddleEnd = this.getDistance(b);
         double distanceBeginningEnd = a.getDistance(b);
@@ -45,6 +70,12 @@ public class Coordinate {
         }
     }
 
+    /**
+     * Počíta pozíciu medzi dvoma bodmi v danej zdialenosti
+     * @param distance vzdialenosť na určenie pozície
+     * @param coord pozícia druhého bodu
+     * @return Vráti vypočítanú vzdialenosť
+     */
     public Coordinate getCoordinateByDistance(double distance, Coordinate coord){
         double x1 = x + (coord.getX() - x) * distance;
         double y2 = y + (coord.getY() - y) * distance;
@@ -67,6 +98,11 @@ public class Coordinate {
         return this.y;
     }
 
+    /**
+     * Equals
+     * @param obj porovnávaný objekt
+     * @return True ak sú rovnaké, inak false
+     */
     @Override
     public boolean equals(Object obj) {
         if ((obj == null) || (obj.getClass() != this.getClass())) {
@@ -77,12 +113,18 @@ public class Coordinate {
 
     /**
      * Vypočíta vzdialenosť medzi dvoma súradnicami.
+     * @param c druhý hraničný bod
      * @return Vzdialenosť dvoch bodov.
      */
     public double getDistance(Coordinate c) {
         return Math.sqrt((this.diffY(c)) * (this.diffY(c)) + (this.diffX(c)) * (this.diffX(c)));
     }
 
+    /**
+     * Vypočíta pozíciu v strede medzi dvoma bodmi
+     * @param c druhý bod
+     * @return pozícia v strede
+     */
     public Coordinate getMiddleCoords(Coordinate c) {
         double beginXCoord = x;
         double beginYCoord = y;

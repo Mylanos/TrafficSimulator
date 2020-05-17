@@ -1,4 +1,4 @@
-/**
+/*
  * Soubor: MyLine.java
  * Ukol c. 2
  * Autor: Marek Ziska, xziska03@stud.fit.vutbr.cz
@@ -9,10 +9,7 @@
 package ija.projekt;
 
 
-import java.util.AbstractMap;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
+import java.util.*;
 
 /**
  * Reprezentuje jednu linku hromadné dopravy. Každá linka má svůj jedinečný identifikátor, seznam zastávek
@@ -22,10 +19,45 @@ import java.util.List;
 public class MyLine implements Line {
     private String lineID;
     private List<MyStreet> streets;
+    private int busCountQueue;
 
-    public MyLine(String lineID) {
+    public MyLine(String lineID, int busCount) {
         this.lineID = lineID;
         this.streets = new ArrayList<>();
+        this.busCountQueue = busCount;
+    }
+
+    @Override
+    public void replaceStreet(MyStreet targetStreet){
+        List<MyStreet> replacementStreets = new ArrayList<>();
+        for(MyStreet street: streets){
+            if(street.equals(targetStreet)){
+               replacementStreets.add(targetStreet);
+            }
+            else{
+                replacementStreets.add(street);
+            }
+        }
+        streets.clear();
+        streets.addAll(replacementStreets);
+    }
+
+    @Override
+    public boolean lineContainsStreet(MyStreet street){
+        if(streets.contains(street)){
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public void decreaseBusQueue(){
+        busCountQueue -= 1;
+    }
+
+    @Override
+    public int getBusCount() {
+        return busCountQueue;
     }
 
     @Override
@@ -77,6 +109,16 @@ public class MyLine implements Line {
             length += streets.get(k).getStreetLength();
         }
         return length;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        MyLine myLine = (MyLine) o;
+        return busCountQueue == myLine.busCountQueue &&
+                Objects.equals(lineID, myLine.lineID) &&
+                Objects.equals(streets, myLine.streets);
     }
 
 }

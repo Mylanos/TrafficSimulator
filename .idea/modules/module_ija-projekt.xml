@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_ija-projekt" default="compile.module.ija-projekt">
+  <dirname property="module.ija-projekt.basedir" file="${ant.file.module_ija-projekt}"/>
+  
+  <property name="module.jdk.home.ija-projekt" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.ija-projekt" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.ija-projekt" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.ija-projekt" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="ija-projekt.output.dir" value="${module.ija-projekt.basedir}/../../out/production/IJA-PROJEKT"/>
+  <property name="ija-projekt.testoutput.dir" value="${module.ija-projekt.basedir}/../../out/test/IJA-PROJEKT"/>
+  
+  <path id="ija-projekt.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="ija-projekt.module.production.classpath">
+    <path refid="${module.jdk.classpath.ija-projekt}"/>
+  </path>
+  
+  <path id="ija-projekt.runtime.production.module.classpath">
+    <pathelement location="${ija-projekt.output.dir}"/>
+  </path>
+  
+  <path id="ija-projekt.module.classpath">
+    <path refid="${module.jdk.classpath.ija-projekt}"/>
+    <pathelement location="${ija-projekt.output.dir}"/>
+  </path>
+  
+  <path id="ija-projekt.runtime.module.classpath">
+    <pathelement location="${ija-projekt.testoutput.dir}"/>
+    <pathelement location="${ija-projekt.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.ija-projekt">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.ija-projekt">
+    <patternset refid="excluded.from.module.ija-projekt"/>
+  </patternset>
+  
+  
+  <target name="compile.module.ija-projekt" depends="compile.module.ija-projekt.production,compile.module.ija-projekt.tests" description="Compile module IJA-PROJEKT"/>
+  
+  <target name="compile.module.ija-projekt.production" depends="register.custom.compilers" description="Compile module IJA-PROJEKT; production classes"/>
+  
+  <target name="compile.module.ija-projekt.tests" depends="register.custom.compilers,compile.module.ija-projekt.production" description="compile module IJA-PROJEKT; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.ija-projekt" description="cleanup module">
+    <delete dir="${ija-projekt.output.dir}"/>
+    <delete dir="${ija-projekt.testoutput.dir}"/>
+  </target>
+</project>

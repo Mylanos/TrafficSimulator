@@ -1,0 +1,6062 @@
+{
+  "streets": [
+    {
+      "streetID": "Trnavská",
+      "coordinates": [
+        {
+          "x": 400.0,
+          "y": 600.0
+        },
+        {
+          "x": 270.0,
+          "y": 420.0
+        }
+      ],
+      "stops": [],
+      "delay": 1
+    },
+    {
+      "streetID": "Mestská",
+      "coordinates": [
+        {
+          "x": 270.0,
+          "y": 420.0
+        },
+        {
+          "x": 330.0,
+          "y": 200.0
+        }
+      ],
+      "stops": [
+        {
+          "stopID": "Zdráhalova",
+          "coordinateStop": {
+            "x": 285.78704434752655,
+            "y": 362.1141707257361
+          }
+        }
+      ],
+      "delay": 1
+    },
+    {
+      "streetID": "Vávrova",
+      "coordinates": [
+        {
+          "x": 68.0,
+          "y": 50.0
+        },
+        {
+          "x": 30.0,
+          "y": 240.0
+        }
+      ],
+      "stops": [
+        {
+          "stopID": "Pepegova",
+          "coordinateStop": {
+            "x": 50.349547837563435,
+            "y": 138.2522608121828
+          }
+        }
+      ],
+      "delay": 1
+    },
+    {
+      "streetID": "Tahpea",
+      "coordinates": [
+        {
+          "x": 30.0,
+          "y": 240.0
+        },
+        {
+          "x": 150.0,
+          "y": 360.0
+        }
+      ],
+      "stops": [],
+      "delay": 1
+    },
+    {
+      "streetID": "Tailorova",
+      "coordinates": [
+        {
+          "x": 150.0,
+          "y": 360.0
+        },
+        {
+          "x": 80.0,
+          "y": 610.0
+        }
+      ],
+      "stops": [
+        {
+          "stopID": "Žiškova",
+          "coordinateStop": {
+            "x": 123.03700744800291,
+            "y": 456.29640197141816
+          }
+        }
+      ],
+      "delay": 1
+    },
+    {
+      "streetID": "Frizly",
+      "coordinates": [
+        {
+          "x": 80.0,
+          "y": 610.0
+        },
+        {
+          "x": 220.0,
+          "y": 790.0
+        }
+      ],
+      "stops": [],
+      "delay": 1
+    },
+    {
+      "streetID": "Vivova",
+      "coordinates": [
+        {
+          "x": 220.0,
+          "y": 790.0
+        },
+        {
+          "x": 400.0,
+          "y": 600.0
+        }
+      ],
+      "stops": [
+        {
+          "stopID": "Zochova",
+          "coordinateStop": {
+            "x": 233.75489295821566,
+            "y": 775.4809463218835
+          }
+        }
+      ],
+      "delay": 1
+    },
+    {
+      "streetID": "Sergeiova",
+      "coordinates": [
+        {
+          "x": 330.0,
+          "y": 200.0
+        },
+        {
+          "x": 68.0,
+          "y": 50.0
+        }
+      ],
+      "stops": [
+        {
+          "stopID": "Titania",
+          "coordinateStop": {
+            "x": 251.89483421263472,
+            "y": 155.2833020301344
+          }
+        }
+      ],
+      "delay": 1
+    },
+    {
+      "streetID": "Elgartova",
+      "coordinates": [
+        {
+          "x": 330.0,
+          "y": 200.0
+        },
+        {
+          "x": 540.0,
+          "y": 70.0
+        }
+      ],
+      "stops": [],
+      "delay": 1
+    },
+    {
+      "streetID": "Malinovského",
+      "coordinates": [
+        {
+          "x": 540.0,
+          "y": 70.0
+        },
+        {
+          "x": 740.0,
+          "y": 110.0
+        }
+      ],
+      "stops": [
+        {
+          "stopID": "Čachtická",
+          "coordinateStop": {
+            "x": 579.2232270276368,
+            "y": 77.84464540552736
+          }
+        }
+      ],
+      "delay": 1
+    },
+    {
+      "streetID": "Merhautova",
+      "coordinates": [
+        {
+          "x": 740.0,
+          "y": 110.0
+        },
+        {
+          "x": 980.0,
+          "y": 280.0
+        }
+      ],
+      "stops": [
+        {
+          "stopID": "Airova",
+          "coordinateStop": {
+            "x": 837.9229377321986,
+            "y": 179.3620808936407
+          }
+        }
+      ],
+      "delay": 1
+    },
+    {
+      "streetID": "Česká",
+      "coordinates": [
+        {
+          "x": 980.0,
+          "y": 280.0
+        },
+        {
+          "x": 1000.0,
+          "y": 440.0
+        }
+      ],
+      "stops": [
+        {
+          "stopID": "Vedľajšia",
+          "coordinateStop": {
+            "x": 984.9613893835683,
+            "y": 319.6911150685467
+          }
+        }
+      ],
+      "delay": 1
+    },
+    {
+      "streetID": "Konečného",
+      "coordinates": [
+        {
+          "x": 1000.0,
+          "y": 440.0
+        },
+        {
+          "x": 880.0,
+          "y": 540.0
+        }
+      ],
+      "stops": [],
+      "delay": 1
+    },
+    {
+      "streetID": "Hlavná",
+      "coordinates": [
+        {
+          "x": 880.0,
+          "y": 540.0
+        },
+        {
+          "x": 780.0,
+          "y": 370.0
+        }
+      ],
+      "stops": [],
+      "delay": 1
+    },
+    {
+      "streetID": "Stredná",
+      "coordinates": [
+        {
+          "x": 780.0,
+          "y": 370.0
+        },
+        {
+          "x": 640.0,
+          "y": 187.0
+        }
+      ],
+      "stops": [
+        {
+          "stopID": "Iota",
+          "coordinateStop": {
+            "x": 761.7716643075245,
+            "y": 346.17296120197847
+          }
+        }
+      ],
+      "delay": 1
+    },
+    {
+      "streetID": "Ulica4",
+      "coordinates": [
+        {
+          "x": 400.0,
+          "y": 600.0
+        },
+        {
+          "x": 600.0,
+          "y": 600.0
+        }
+      ],
+      "stops": [
+        {
+          "stopID": "Koniklecova",
+          "coordinateStop": {
+            "x": 450.0,
+            "y": 600.0
+          }
+        }
+      ],
+      "delay": 1
+    },
+    {
+      "streetID": "Ulica5",
+      "coordinates": [
+        {
+          "x": 600.0,
+          "y": 600.0
+        },
+        {
+          "x": 700.0,
+          "y": 500.0
+        }
+      ],
+      "stops": [
+        {
+          "stopID": "Chirana",
+          "coordinateStop": {
+            "x": 663.6396103067892,
+            "y": 536.3603896932108
+          }
+        }
+      ],
+      "delay": 1
+    },
+    {
+      "streetID": "Ulica10",
+      "coordinates": [
+        {
+          "x": 700.0,
+          "y": 500.0
+        },
+        {
+          "x": 640.0,
+          "y": 187.0
+        }
+      ],
+      "stops": [
+        {
+          "stopID": "Ferkova",
+          "coordinateStop": {
+            "x": 660.4642522798275,
+            "y": 293.7551827264334
+          }
+        }
+      ],
+      "delay": 1
+    },
+    {
+      "streetID": "Ulica11",
+      "coordinates": [
+        {
+          "x": 640.0,
+          "y": 187.0
+        },
+        {
+          "x": 490.0,
+          "y": 260.0
+        }
+      ],
+      "stops": [],
+      "delay": 1
+    },
+    {
+      "streetID": "Ulica6",
+      "coordinates": [
+        {
+          "x": 490.0,
+          "y": 260.0
+        },
+        {
+          "x": 330.0,
+          "y": 200.0
+        }
+      ],
+      "stops": [],
+      "delay": 1
+    }
+  ],
+  "stops": [
+    {
+      "stopID": "Zdráhalova",
+      "coordinateStop": {
+        "x": 285.78704434752655,
+        "y": 362.1141707257361
+      }
+    },
+    {
+      "stopID": "Pepegova",
+      "coordinateStop": {
+        "x": 50.349547837563435,
+        "y": 138.2522608121828
+      }
+    },
+    {
+      "stopID": "Žiškova",
+      "coordinateStop": {
+        "x": 123.03700744800291,
+        "y": 456.29640197141816
+      }
+    },
+    {
+      "stopID": "Zochova",
+      "coordinateStop": {
+        "x": 233.75489295821566,
+        "y": 775.4809463218835
+      }
+    },
+    {
+      "stopID": "Titania",
+      "coordinateStop": {
+        "x": 251.89483421263472,
+        "y": 155.2833020301344
+      }
+    },
+    {
+      "stopID": "Čachtická",
+      "coordinateStop": {
+        "x": 579.2232270276368,
+        "y": 77.84464540552736
+      }
+    },
+    {
+      "stopID": "Airova",
+      "coordinateStop": {
+        "x": 837.9229377321986,
+        "y": 179.3620808936407
+      }
+    },
+    {
+      "stopID": "Vedľajšia",
+      "coordinateStop": {
+        "x": 984.9613893835683,
+        "y": 319.6911150685467
+      }
+    },
+    {
+      "stopID": "Iota",
+      "coordinateStop": {
+        "x": 761.7716643075245,
+        "y": 346.17296120197847
+      }
+    },
+    {
+      "stopID": "Koniklecova",
+      "coordinateStop": {
+        "x": 450.0,
+        "y": 600.0
+      }
+    },
+    {
+      "stopID": "Chirana",
+      "coordinateStop": {
+        "x": 663.6396103067892,
+        "y": 536.3603896932108
+      }
+    },
+    {
+      "stopID": "Ferkova",
+      "coordinateStop": {
+        "x": 660.4642522798275,
+        "y": 293.7551827264334
+      }
+    }
+  ],
+  "buses": [
+    {
+      "position": {
+        "x": 68.0,
+        "y": 50.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "53",
+        "streets": [
+          {
+            "streetID": "Vávrova",
+            "coordinates": [
+              {
+                "x": 68.0,
+                "y": 50.0
+              },
+              {
+                "x": 30.0,
+                "y": 240.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Pepegova",
+                "coordinateStop": {
+                  "x": 50.349547837563435,
+                  "y": 138.2522608121828
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Tahpea",
+            "coordinates": [
+              {
+                "x": 30.0,
+                "y": 240.0
+              },
+              {
+                "x": 150.0,
+                "y": 360.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Tailorova",
+            "coordinates": [
+              {
+                "x": 150.0,
+                "y": 360.0
+              },
+              {
+                "x": 80.0,
+                "y": 610.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Žiškova",
+                "coordinateStop": {
+                  "x": 123.03700744800291,
+                  "y": 456.29640197141816
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Frizly",
+            "coordinates": [
+              {
+                "x": 80.0,
+                "y": 610.0
+              },
+              {
+                "x": 220.0,
+                "y": 790.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Vivova",
+            "coordinates": [
+              {
+                "x": 220.0,
+                "y": 790.0
+              },
+              {
+                "x": 400.0,
+                "y": 600.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zochova",
+                "coordinateStop": {
+                  "x": 233.75489295821566,
+                  "y": 775.4809463218835
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Trnavská",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 270.0,
+                "y": 420.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Mestská",
+            "coordinates": [
+              {
+                "x": 270.0,
+                "y": 420.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zdráhalova",
+                "coordinateStop": {
+                  "x": 285.78704434752655,
+                  "y": 362.1141707257361
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Sergeiova",
+            "coordinates": [
+              {
+                "x": 330.0,
+                "y": 200.0
+              },
+              {
+                "x": 68.0,
+                "y": 50.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Titania",
+                "coordinateStop": {
+                  "x": 251.89483421263472,
+                  "y": 155.2833020301344
+                }
+              }
+            ],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 68.0,
+        "y": 50.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "53",
+        "streets": [
+          {
+            "streetID": "Vávrova",
+            "coordinates": [
+              {
+                "x": 68.0,
+                "y": 50.0
+              },
+              {
+                "x": 30.0,
+                "y": 240.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Pepegova",
+                "coordinateStop": {
+                  "x": 50.349547837563435,
+                  "y": 138.2522608121828
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Tahpea",
+            "coordinates": [
+              {
+                "x": 30.0,
+                "y": 240.0
+              },
+              {
+                "x": 150.0,
+                "y": 360.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Tailorova",
+            "coordinates": [
+              {
+                "x": 150.0,
+                "y": 360.0
+              },
+              {
+                "x": 80.0,
+                "y": 610.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Žiškova",
+                "coordinateStop": {
+                  "x": 123.03700744800291,
+                  "y": 456.29640197141816
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Frizly",
+            "coordinates": [
+              {
+                "x": 80.0,
+                "y": 610.0
+              },
+              {
+                "x": 220.0,
+                "y": 790.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Vivova",
+            "coordinates": [
+              {
+                "x": 220.0,
+                "y": 790.0
+              },
+              {
+                "x": 400.0,
+                "y": 600.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zochova",
+                "coordinateStop": {
+                  "x": 233.75489295821566,
+                  "y": 775.4809463218835
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Trnavská",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 270.0,
+                "y": 420.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Mestská",
+            "coordinates": [
+              {
+                "x": 270.0,
+                "y": 420.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zdráhalova",
+                "coordinateStop": {
+                  "x": 285.78704434752655,
+                  "y": 362.1141707257361
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Sergeiova",
+            "coordinates": [
+              {
+                "x": 330.0,
+                "y": 200.0
+              },
+              {
+                "x": 68.0,
+                "y": 50.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Titania",
+                "coordinateStop": {
+                  "x": 251.89483421263472,
+                  "y": 155.2833020301344
+                }
+              }
+            ],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 68.0,
+        "y": 50.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "53",
+        "streets": [
+          {
+            "streetID": "Vávrova",
+            "coordinates": [
+              {
+                "x": 68.0,
+                "y": 50.0
+              },
+              {
+                "x": 30.0,
+                "y": 240.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Pepegova",
+                "coordinateStop": {
+                  "x": 50.349547837563435,
+                  "y": 138.2522608121828
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Tahpea",
+            "coordinates": [
+              {
+                "x": 30.0,
+                "y": 240.0
+              },
+              {
+                "x": 150.0,
+                "y": 360.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Tailorova",
+            "coordinates": [
+              {
+                "x": 150.0,
+                "y": 360.0
+              },
+              {
+                "x": 80.0,
+                "y": 610.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Žiškova",
+                "coordinateStop": {
+                  "x": 123.03700744800291,
+                  "y": 456.29640197141816
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Frizly",
+            "coordinates": [
+              {
+                "x": 80.0,
+                "y": 610.0
+              },
+              {
+                "x": 220.0,
+                "y": 790.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Vivova",
+            "coordinates": [
+              {
+                "x": 220.0,
+                "y": 790.0
+              },
+              {
+                "x": 400.0,
+                "y": 600.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zochova",
+                "coordinateStop": {
+                  "x": 233.75489295821566,
+                  "y": 775.4809463218835
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Trnavská",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 270.0,
+                "y": 420.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Mestská",
+            "coordinates": [
+              {
+                "x": 270.0,
+                "y": 420.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zdráhalova",
+                "coordinateStop": {
+                  "x": 285.78704434752655,
+                  "y": 362.1141707257361
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Sergeiova",
+            "coordinates": [
+              {
+                "x": 330.0,
+                "y": 200.0
+              },
+              {
+                "x": 68.0,
+                "y": 50.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Titania",
+                "coordinateStop": {
+                  "x": 251.89483421263472,
+                  "y": 155.2833020301344
+                }
+              }
+            ],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 68.0,
+        "y": 50.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "53",
+        "streets": [
+          {
+            "streetID": "Vávrova",
+            "coordinates": [
+              {
+                "x": 68.0,
+                "y": 50.0
+              },
+              {
+                "x": 30.0,
+                "y": 240.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Pepegova",
+                "coordinateStop": {
+                  "x": 50.349547837563435,
+                  "y": 138.2522608121828
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Tahpea",
+            "coordinates": [
+              {
+                "x": 30.0,
+                "y": 240.0
+              },
+              {
+                "x": 150.0,
+                "y": 360.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Tailorova",
+            "coordinates": [
+              {
+                "x": 150.0,
+                "y": 360.0
+              },
+              {
+                "x": 80.0,
+                "y": 610.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Žiškova",
+                "coordinateStop": {
+                  "x": 123.03700744800291,
+                  "y": 456.29640197141816
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Frizly",
+            "coordinates": [
+              {
+                "x": 80.0,
+                "y": 610.0
+              },
+              {
+                "x": 220.0,
+                "y": 790.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Vivova",
+            "coordinates": [
+              {
+                "x": 220.0,
+                "y": 790.0
+              },
+              {
+                "x": 400.0,
+                "y": 600.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zochova",
+                "coordinateStop": {
+                  "x": 233.75489295821566,
+                  "y": 775.4809463218835
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Trnavská",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 270.0,
+                "y": 420.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Mestská",
+            "coordinates": [
+              {
+                "x": 270.0,
+                "y": 420.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zdráhalova",
+                "coordinateStop": {
+                  "x": 285.78704434752655,
+                  "y": 362.1141707257361
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Sergeiova",
+            "coordinates": [
+              {
+                "x": 330.0,
+                "y": 200.0
+              },
+              {
+                "x": 68.0,
+                "y": 50.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Titania",
+                "coordinateStop": {
+                  "x": 251.89483421263472,
+                  "y": 155.2833020301344
+                }
+              }
+            ],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 68.0,
+        "y": 50.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "53",
+        "streets": [
+          {
+            "streetID": "Vávrova",
+            "coordinates": [
+              {
+                "x": 68.0,
+                "y": 50.0
+              },
+              {
+                "x": 30.0,
+                "y": 240.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Pepegova",
+                "coordinateStop": {
+                  "x": 50.349547837563435,
+                  "y": 138.2522608121828
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Tahpea",
+            "coordinates": [
+              {
+                "x": 30.0,
+                "y": 240.0
+              },
+              {
+                "x": 150.0,
+                "y": 360.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Tailorova",
+            "coordinates": [
+              {
+                "x": 150.0,
+                "y": 360.0
+              },
+              {
+                "x": 80.0,
+                "y": 610.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Žiškova",
+                "coordinateStop": {
+                  "x": 123.03700744800291,
+                  "y": 456.29640197141816
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Frizly",
+            "coordinates": [
+              {
+                "x": 80.0,
+                "y": 610.0
+              },
+              {
+                "x": 220.0,
+                "y": 790.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Vivova",
+            "coordinates": [
+              {
+                "x": 220.0,
+                "y": 790.0
+              },
+              {
+                "x": 400.0,
+                "y": 600.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zochova",
+                "coordinateStop": {
+                  "x": 233.75489295821566,
+                  "y": 775.4809463218835
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Trnavská",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 270.0,
+                "y": 420.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Mestská",
+            "coordinates": [
+              {
+                "x": 270.0,
+                "y": 420.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zdráhalova",
+                "coordinateStop": {
+                  "x": 285.78704434752655,
+                  "y": 362.1141707257361
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Sergeiova",
+            "coordinates": [
+              {
+                "x": 330.0,
+                "y": 200.0
+              },
+              {
+                "x": 68.0,
+                "y": 50.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Titania",
+                "coordinateStop": {
+                  "x": 251.89483421263472,
+                  "y": 155.2833020301344
+                }
+              }
+            ],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 68.0,
+        "y": 50.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "53",
+        "streets": [
+          {
+            "streetID": "Vávrova",
+            "coordinates": [
+              {
+                "x": 68.0,
+                "y": 50.0
+              },
+              {
+                "x": 30.0,
+                "y": 240.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Pepegova",
+                "coordinateStop": {
+                  "x": 50.349547837563435,
+                  "y": 138.2522608121828
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Tahpea",
+            "coordinates": [
+              {
+                "x": 30.0,
+                "y": 240.0
+              },
+              {
+                "x": 150.0,
+                "y": 360.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Tailorova",
+            "coordinates": [
+              {
+                "x": 150.0,
+                "y": 360.0
+              },
+              {
+                "x": 80.0,
+                "y": 610.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Žiškova",
+                "coordinateStop": {
+                  "x": 123.03700744800291,
+                  "y": 456.29640197141816
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Frizly",
+            "coordinates": [
+              {
+                "x": 80.0,
+                "y": 610.0
+              },
+              {
+                "x": 220.0,
+                "y": 790.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Vivova",
+            "coordinates": [
+              {
+                "x": 220.0,
+                "y": 790.0
+              },
+              {
+                "x": 400.0,
+                "y": 600.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zochova",
+                "coordinateStop": {
+                  "x": 233.75489295821566,
+                  "y": 775.4809463218835
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Trnavská",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 270.0,
+                "y": 420.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Mestská",
+            "coordinates": [
+              {
+                "x": 270.0,
+                "y": 420.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zdráhalova",
+                "coordinateStop": {
+                  "x": 285.78704434752655,
+                  "y": 362.1141707257361
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Sergeiova",
+            "coordinates": [
+              {
+                "x": 330.0,
+                "y": 200.0
+              },
+              {
+                "x": 68.0,
+                "y": 50.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Titania",
+                "coordinateStop": {
+                  "x": 251.89483421263472,
+                  "y": 155.2833020301344
+                }
+              }
+            ],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 68.0,
+        "y": 50.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "53",
+        "streets": [
+          {
+            "streetID": "Vávrova",
+            "coordinates": [
+              {
+                "x": 68.0,
+                "y": 50.0
+              },
+              {
+                "x": 30.0,
+                "y": 240.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Pepegova",
+                "coordinateStop": {
+                  "x": 50.349547837563435,
+                  "y": 138.2522608121828
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Tahpea",
+            "coordinates": [
+              {
+                "x": 30.0,
+                "y": 240.0
+              },
+              {
+                "x": 150.0,
+                "y": 360.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Tailorova",
+            "coordinates": [
+              {
+                "x": 150.0,
+                "y": 360.0
+              },
+              {
+                "x": 80.0,
+                "y": 610.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Žiškova",
+                "coordinateStop": {
+                  "x": 123.03700744800291,
+                  "y": 456.29640197141816
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Frizly",
+            "coordinates": [
+              {
+                "x": 80.0,
+                "y": 610.0
+              },
+              {
+                "x": 220.0,
+                "y": 790.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Vivova",
+            "coordinates": [
+              {
+                "x": 220.0,
+                "y": 790.0
+              },
+              {
+                "x": 400.0,
+                "y": 600.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zochova",
+                "coordinateStop": {
+                  "x": 233.75489295821566,
+                  "y": 775.4809463218835
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Trnavská",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 270.0,
+                "y": 420.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Mestská",
+            "coordinates": [
+              {
+                "x": 270.0,
+                "y": 420.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zdráhalova",
+                "coordinateStop": {
+                  "x": 285.78704434752655,
+                  "y": 362.1141707257361
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Sergeiova",
+            "coordinates": [
+              {
+                "x": 330.0,
+                "y": 200.0
+              },
+              {
+                "x": 68.0,
+                "y": 50.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Titania",
+                "coordinateStop": {
+                  "x": 251.89483421263472,
+                  "y": 155.2833020301344
+                }
+              }
+            ],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 68.0,
+        "y": 50.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "53",
+        "streets": [
+          {
+            "streetID": "Vávrova",
+            "coordinates": [
+              {
+                "x": 68.0,
+                "y": 50.0
+              },
+              {
+                "x": 30.0,
+                "y": 240.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Pepegova",
+                "coordinateStop": {
+                  "x": 50.349547837563435,
+                  "y": 138.2522608121828
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Tahpea",
+            "coordinates": [
+              {
+                "x": 30.0,
+                "y": 240.0
+              },
+              {
+                "x": 150.0,
+                "y": 360.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Tailorova",
+            "coordinates": [
+              {
+                "x": 150.0,
+                "y": 360.0
+              },
+              {
+                "x": 80.0,
+                "y": 610.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Žiškova",
+                "coordinateStop": {
+                  "x": 123.03700744800291,
+                  "y": 456.29640197141816
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Frizly",
+            "coordinates": [
+              {
+                "x": 80.0,
+                "y": 610.0
+              },
+              {
+                "x": 220.0,
+                "y": 790.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Vivova",
+            "coordinates": [
+              {
+                "x": 220.0,
+                "y": 790.0
+              },
+              {
+                "x": 400.0,
+                "y": 600.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zochova",
+                "coordinateStop": {
+                  "x": 233.75489295821566,
+                  "y": 775.4809463218835
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Trnavská",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 270.0,
+                "y": 420.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Mestská",
+            "coordinates": [
+              {
+                "x": 270.0,
+                "y": 420.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zdráhalova",
+                "coordinateStop": {
+                  "x": 285.78704434752655,
+                  "y": 362.1141707257361
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Sergeiova",
+            "coordinates": [
+              {
+                "x": 330.0,
+                "y": 200.0
+              },
+              {
+                "x": 68.0,
+                "y": 50.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Titania",
+                "coordinateStop": {
+                  "x": 251.89483421263472,
+                  "y": 155.2833020301344
+                }
+              }
+            ],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 68.0,
+        "y": 50.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "53",
+        "streets": [
+          {
+            "streetID": "Vávrova",
+            "coordinates": [
+              {
+                "x": 68.0,
+                "y": 50.0
+              },
+              {
+                "x": 30.0,
+                "y": 240.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Pepegova",
+                "coordinateStop": {
+                  "x": 50.349547837563435,
+                  "y": 138.2522608121828
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Tahpea",
+            "coordinates": [
+              {
+                "x": 30.0,
+                "y": 240.0
+              },
+              {
+                "x": 150.0,
+                "y": 360.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Tailorova",
+            "coordinates": [
+              {
+                "x": 150.0,
+                "y": 360.0
+              },
+              {
+                "x": 80.0,
+                "y": 610.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Žiškova",
+                "coordinateStop": {
+                  "x": 123.03700744800291,
+                  "y": 456.29640197141816
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Frizly",
+            "coordinates": [
+              {
+                "x": 80.0,
+                "y": 610.0
+              },
+              {
+                "x": 220.0,
+                "y": 790.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Vivova",
+            "coordinates": [
+              {
+                "x": 220.0,
+                "y": 790.0
+              },
+              {
+                "x": 400.0,
+                "y": 600.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zochova",
+                "coordinateStop": {
+                  "x": 233.75489295821566,
+                  "y": 775.4809463218835
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Trnavská",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 270.0,
+                "y": 420.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Mestská",
+            "coordinates": [
+              {
+                "x": 270.0,
+                "y": 420.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zdráhalova",
+                "coordinateStop": {
+                  "x": 285.78704434752655,
+                  "y": 362.1141707257361
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Sergeiova",
+            "coordinates": [
+              {
+                "x": 330.0,
+                "y": 200.0
+              },
+              {
+                "x": 68.0,
+                "y": 50.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Titania",
+                "coordinateStop": {
+                  "x": 251.89483421263472,
+                  "y": 155.2833020301344
+                }
+              }
+            ],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 68.0,
+        "y": 50.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "53",
+        "streets": [
+          {
+            "streetID": "Vávrova",
+            "coordinates": [
+              {
+                "x": 68.0,
+                "y": 50.0
+              },
+              {
+                "x": 30.0,
+                "y": 240.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Pepegova",
+                "coordinateStop": {
+                  "x": 50.349547837563435,
+                  "y": 138.2522608121828
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Tahpea",
+            "coordinates": [
+              {
+                "x": 30.0,
+                "y": 240.0
+              },
+              {
+                "x": 150.0,
+                "y": 360.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Tailorova",
+            "coordinates": [
+              {
+                "x": 150.0,
+                "y": 360.0
+              },
+              {
+                "x": 80.0,
+                "y": 610.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Žiškova",
+                "coordinateStop": {
+                  "x": 123.03700744800291,
+                  "y": 456.29640197141816
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Frizly",
+            "coordinates": [
+              {
+                "x": 80.0,
+                "y": 610.0
+              },
+              {
+                "x": 220.0,
+                "y": 790.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Vivova",
+            "coordinates": [
+              {
+                "x": 220.0,
+                "y": 790.0
+              },
+              {
+                "x": 400.0,
+                "y": 600.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zochova",
+                "coordinateStop": {
+                  "x": 233.75489295821566,
+                  "y": 775.4809463218835
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Trnavská",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 270.0,
+                "y": 420.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Mestská",
+            "coordinates": [
+              {
+                "x": 270.0,
+                "y": 420.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zdráhalova",
+                "coordinateStop": {
+                  "x": 285.78704434752655,
+                  "y": 362.1141707257361
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Sergeiova",
+            "coordinates": [
+              {
+                "x": 330.0,
+                "y": 200.0
+              },
+              {
+                "x": 68.0,
+                "y": 50.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Titania",
+                "coordinateStop": {
+                  "x": 251.89483421263472,
+                  "y": 155.2833020301344
+                }
+              }
+            ],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 400.0,
+        "y": 600.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "84",
+        "streets": [
+          {
+            "streetID": "Ulica4",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 600.0,
+                "y": 600.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Koniklecova",
+                "coordinateStop": {
+                  "x": 450.0,
+                  "y": 600.0
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica5",
+            "coordinates": [
+              {
+                "x": 600.0,
+                "y": 600.0
+              },
+              {
+                "x": 700.0,
+                "y": 500.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Chirana",
+                "coordinateStop": {
+                  "x": 663.6396103067892,
+                  "y": 536.3603896932108
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica10",
+            "coordinates": [
+              {
+                "x": 700.0,
+                "y": 500.0
+              },
+              {
+                "x": 640.0,
+                "y": 187.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Ferkova",
+                "coordinateStop": {
+                  "x": 660.4642522798275,
+                  "y": 293.7551827264334
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica11",
+            "coordinates": [
+              {
+                "x": 640.0,
+                "y": 187.0
+              },
+              {
+                "x": 490.0,
+                "y": 260.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica6",
+            "coordinates": [
+              {
+                "x": 490.0,
+                "y": 260.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Mestská",
+            "coordinates": [
+              {
+                "x": 270.0,
+                "y": 420.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zdráhalova",
+                "coordinateStop": {
+                  "x": 285.78704434752655,
+                  "y": 362.1141707257361
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Trnavská",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 270.0,
+                "y": 420.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 400.0,
+        "y": 600.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "84",
+        "streets": [
+          {
+            "streetID": "Ulica4",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 600.0,
+                "y": 600.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Koniklecova",
+                "coordinateStop": {
+                  "x": 450.0,
+                  "y": 600.0
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica5",
+            "coordinates": [
+              {
+                "x": 600.0,
+                "y": 600.0
+              },
+              {
+                "x": 700.0,
+                "y": 500.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Chirana",
+                "coordinateStop": {
+                  "x": 663.6396103067892,
+                  "y": 536.3603896932108
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica10",
+            "coordinates": [
+              {
+                "x": 700.0,
+                "y": 500.0
+              },
+              {
+                "x": 640.0,
+                "y": 187.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Ferkova",
+                "coordinateStop": {
+                  "x": 660.4642522798275,
+                  "y": 293.7551827264334
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica11",
+            "coordinates": [
+              {
+                "x": 640.0,
+                "y": 187.0
+              },
+              {
+                "x": 490.0,
+                "y": 260.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica6",
+            "coordinates": [
+              {
+                "x": 490.0,
+                "y": 260.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Mestská",
+            "coordinates": [
+              {
+                "x": 270.0,
+                "y": 420.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zdráhalova",
+                "coordinateStop": {
+                  "x": 285.78704434752655,
+                  "y": 362.1141707257361
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Trnavská",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 270.0,
+                "y": 420.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 400.0,
+        "y": 600.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "84",
+        "streets": [
+          {
+            "streetID": "Ulica4",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 600.0,
+                "y": 600.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Koniklecova",
+                "coordinateStop": {
+                  "x": 450.0,
+                  "y": 600.0
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica5",
+            "coordinates": [
+              {
+                "x": 600.0,
+                "y": 600.0
+              },
+              {
+                "x": 700.0,
+                "y": 500.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Chirana",
+                "coordinateStop": {
+                  "x": 663.6396103067892,
+                  "y": 536.3603896932108
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica10",
+            "coordinates": [
+              {
+                "x": 700.0,
+                "y": 500.0
+              },
+              {
+                "x": 640.0,
+                "y": 187.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Ferkova",
+                "coordinateStop": {
+                  "x": 660.4642522798275,
+                  "y": 293.7551827264334
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica11",
+            "coordinates": [
+              {
+                "x": 640.0,
+                "y": 187.0
+              },
+              {
+                "x": 490.0,
+                "y": 260.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica6",
+            "coordinates": [
+              {
+                "x": 490.0,
+                "y": 260.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Mestská",
+            "coordinates": [
+              {
+                "x": 270.0,
+                "y": 420.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zdráhalova",
+                "coordinateStop": {
+                  "x": 285.78704434752655,
+                  "y": 362.1141707257361
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Trnavská",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 270.0,
+                "y": 420.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 400.0,
+        "y": 600.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "84",
+        "streets": [
+          {
+            "streetID": "Ulica4",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 600.0,
+                "y": 600.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Koniklecova",
+                "coordinateStop": {
+                  "x": 450.0,
+                  "y": 600.0
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica5",
+            "coordinates": [
+              {
+                "x": 600.0,
+                "y": 600.0
+              },
+              {
+                "x": 700.0,
+                "y": 500.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Chirana",
+                "coordinateStop": {
+                  "x": 663.6396103067892,
+                  "y": 536.3603896932108
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica10",
+            "coordinates": [
+              {
+                "x": 700.0,
+                "y": 500.0
+              },
+              {
+                "x": 640.0,
+                "y": 187.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Ferkova",
+                "coordinateStop": {
+                  "x": 660.4642522798275,
+                  "y": 293.7551827264334
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica11",
+            "coordinates": [
+              {
+                "x": 640.0,
+                "y": 187.0
+              },
+              {
+                "x": 490.0,
+                "y": 260.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica6",
+            "coordinates": [
+              {
+                "x": 490.0,
+                "y": 260.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Mestská",
+            "coordinates": [
+              {
+                "x": 270.0,
+                "y": 420.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zdráhalova",
+                "coordinateStop": {
+                  "x": 285.78704434752655,
+                  "y": 362.1141707257361
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Trnavská",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 270.0,
+                "y": 420.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 400.0,
+        "y": 600.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "84",
+        "streets": [
+          {
+            "streetID": "Ulica4",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 600.0,
+                "y": 600.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Koniklecova",
+                "coordinateStop": {
+                  "x": 450.0,
+                  "y": 600.0
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica5",
+            "coordinates": [
+              {
+                "x": 600.0,
+                "y": 600.0
+              },
+              {
+                "x": 700.0,
+                "y": 500.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Chirana",
+                "coordinateStop": {
+                  "x": 663.6396103067892,
+                  "y": 536.3603896932108
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica10",
+            "coordinates": [
+              {
+                "x": 700.0,
+                "y": 500.0
+              },
+              {
+                "x": 640.0,
+                "y": 187.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Ferkova",
+                "coordinateStop": {
+                  "x": 660.4642522798275,
+                  "y": 293.7551827264334
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica11",
+            "coordinates": [
+              {
+                "x": 640.0,
+                "y": 187.0
+              },
+              {
+                "x": 490.0,
+                "y": 260.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica6",
+            "coordinates": [
+              {
+                "x": 490.0,
+                "y": 260.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Mestská",
+            "coordinates": [
+              {
+                "x": 270.0,
+                "y": 420.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zdráhalova",
+                "coordinateStop": {
+                  "x": 285.78704434752655,
+                  "y": 362.1141707257361
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Trnavská",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 270.0,
+                "y": 420.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 400.0,
+        "y": 600.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "84",
+        "streets": [
+          {
+            "streetID": "Ulica4",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 600.0,
+                "y": 600.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Koniklecova",
+                "coordinateStop": {
+                  "x": 450.0,
+                  "y": 600.0
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica5",
+            "coordinates": [
+              {
+                "x": 600.0,
+                "y": 600.0
+              },
+              {
+                "x": 700.0,
+                "y": 500.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Chirana",
+                "coordinateStop": {
+                  "x": 663.6396103067892,
+                  "y": 536.3603896932108
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica10",
+            "coordinates": [
+              {
+                "x": 700.0,
+                "y": 500.0
+              },
+              {
+                "x": 640.0,
+                "y": 187.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Ferkova",
+                "coordinateStop": {
+                  "x": 660.4642522798275,
+                  "y": 293.7551827264334
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica11",
+            "coordinates": [
+              {
+                "x": 640.0,
+                "y": 187.0
+              },
+              {
+                "x": 490.0,
+                "y": 260.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica6",
+            "coordinates": [
+              {
+                "x": 490.0,
+                "y": 260.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Mestská",
+            "coordinates": [
+              {
+                "x": 270.0,
+                "y": 420.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zdráhalova",
+                "coordinateStop": {
+                  "x": 285.78704434752655,
+                  "y": 362.1141707257361
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Trnavská",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 270.0,
+                "y": 420.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 400.0,
+        "y": 600.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "84",
+        "streets": [
+          {
+            "streetID": "Ulica4",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 600.0,
+                "y": 600.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Koniklecova",
+                "coordinateStop": {
+                  "x": 450.0,
+                  "y": 600.0
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica5",
+            "coordinates": [
+              {
+                "x": 600.0,
+                "y": 600.0
+              },
+              {
+                "x": 700.0,
+                "y": 500.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Chirana",
+                "coordinateStop": {
+                  "x": 663.6396103067892,
+                  "y": 536.3603896932108
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica10",
+            "coordinates": [
+              {
+                "x": 700.0,
+                "y": 500.0
+              },
+              {
+                "x": 640.0,
+                "y": 187.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Ferkova",
+                "coordinateStop": {
+                  "x": 660.4642522798275,
+                  "y": 293.7551827264334
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica11",
+            "coordinates": [
+              {
+                "x": 640.0,
+                "y": 187.0
+              },
+              {
+                "x": 490.0,
+                "y": 260.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica6",
+            "coordinates": [
+              {
+                "x": 490.0,
+                "y": 260.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Mestská",
+            "coordinates": [
+              {
+                "x": 270.0,
+                "y": 420.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zdráhalova",
+                "coordinateStop": {
+                  "x": 285.78704434752655,
+                  "y": 362.1141707257361
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Trnavská",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 270.0,
+                "y": 420.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 400.0,
+        "y": 600.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "84",
+        "streets": [
+          {
+            "streetID": "Ulica4",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 600.0,
+                "y": 600.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Koniklecova",
+                "coordinateStop": {
+                  "x": 450.0,
+                  "y": 600.0
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica5",
+            "coordinates": [
+              {
+                "x": 600.0,
+                "y": 600.0
+              },
+              {
+                "x": 700.0,
+                "y": 500.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Chirana",
+                "coordinateStop": {
+                  "x": 663.6396103067892,
+                  "y": 536.3603896932108
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica10",
+            "coordinates": [
+              {
+                "x": 700.0,
+                "y": 500.0
+              },
+              {
+                "x": 640.0,
+                "y": 187.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Ferkova",
+                "coordinateStop": {
+                  "x": 660.4642522798275,
+                  "y": 293.7551827264334
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica11",
+            "coordinates": [
+              {
+                "x": 640.0,
+                "y": 187.0
+              },
+              {
+                "x": 490.0,
+                "y": 260.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica6",
+            "coordinates": [
+              {
+                "x": 490.0,
+                "y": 260.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Mestská",
+            "coordinates": [
+              {
+                "x": 270.0,
+                "y": 420.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zdráhalova",
+                "coordinateStop": {
+                  "x": 285.78704434752655,
+                  "y": 362.1141707257361
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Trnavská",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 270.0,
+                "y": 420.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 400.0,
+        "y": 600.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "84",
+        "streets": [
+          {
+            "streetID": "Ulica4",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 600.0,
+                "y": 600.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Koniklecova",
+                "coordinateStop": {
+                  "x": 450.0,
+                  "y": 600.0
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica5",
+            "coordinates": [
+              {
+                "x": 600.0,
+                "y": 600.0
+              },
+              {
+                "x": 700.0,
+                "y": 500.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Chirana",
+                "coordinateStop": {
+                  "x": 663.6396103067892,
+                  "y": 536.3603896932108
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica10",
+            "coordinates": [
+              {
+                "x": 700.0,
+                "y": 500.0
+              },
+              {
+                "x": 640.0,
+                "y": 187.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Ferkova",
+                "coordinateStop": {
+                  "x": 660.4642522798275,
+                  "y": 293.7551827264334
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica11",
+            "coordinates": [
+              {
+                "x": 640.0,
+                "y": 187.0
+              },
+              {
+                "x": 490.0,
+                "y": 260.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica6",
+            "coordinates": [
+              {
+                "x": 490.0,
+                "y": 260.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Mestská",
+            "coordinates": [
+              {
+                "x": 270.0,
+                "y": 420.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zdráhalova",
+                "coordinateStop": {
+                  "x": 285.78704434752655,
+                  "y": 362.1141707257361
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Trnavská",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 270.0,
+                "y": 420.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 400.0,
+        "y": 600.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "84",
+        "streets": [
+          {
+            "streetID": "Ulica4",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 600.0,
+                "y": 600.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Koniklecova",
+                "coordinateStop": {
+                  "x": 450.0,
+                  "y": 600.0
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica5",
+            "coordinates": [
+              {
+                "x": 600.0,
+                "y": 600.0
+              },
+              {
+                "x": 700.0,
+                "y": 500.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Chirana",
+                "coordinateStop": {
+                  "x": 663.6396103067892,
+                  "y": 536.3603896932108
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica10",
+            "coordinates": [
+              {
+                "x": 700.0,
+                "y": 500.0
+              },
+              {
+                "x": 640.0,
+                "y": 187.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Ferkova",
+                "coordinateStop": {
+                  "x": 660.4642522798275,
+                  "y": 293.7551827264334
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica11",
+            "coordinates": [
+              {
+                "x": 640.0,
+                "y": 187.0
+              },
+              {
+                "x": 490.0,
+                "y": 260.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica6",
+            "coordinates": [
+              {
+                "x": 490.0,
+                "y": 260.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Mestská",
+            "coordinates": [
+              {
+                "x": 270.0,
+                "y": 420.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Zdráhalova",
+                "coordinateStop": {
+                  "x": 285.78704434752655,
+                  "y": 362.1141707257361
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Trnavská",
+            "coordinates": [
+              {
+                "x": 400.0,
+                "y": 600.0
+              },
+              {
+                "x": 270.0,
+                "y": 420.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 330.0,
+        "y": 200.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "32",
+        "streets": [
+          {
+            "streetID": "Elgartova",
+            "coordinates": [
+              {
+                "x": 330.0,
+                "y": 200.0
+              },
+              {
+                "x": 540.0,
+                "y": 70.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Malinovského",
+            "coordinates": [
+              {
+                "x": 540.0,
+                "y": 70.0
+              },
+              {
+                "x": 740.0,
+                "y": 110.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Čachtická",
+                "coordinateStop": {
+                  "x": 579.2232270276368,
+                  "y": 77.84464540552736
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Merhautova",
+            "coordinates": [
+              {
+                "x": 740.0,
+                "y": 110.0
+              },
+              {
+                "x": 980.0,
+                "y": 280.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Airova",
+                "coordinateStop": {
+                  "x": 837.9229377321986,
+                  "y": 179.3620808936407
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Česká",
+            "coordinates": [
+              {
+                "x": 980.0,
+                "y": 280.0
+              },
+              {
+                "x": 1000.0,
+                "y": 440.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Vedľajšia",
+                "coordinateStop": {
+                  "x": 984.9613893835683,
+                  "y": 319.6911150685467
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Konečného",
+            "coordinates": [
+              {
+                "x": 1000.0,
+                "y": 440.0
+              },
+              {
+                "x": 880.0,
+                "y": 540.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Hlavná",
+            "coordinates": [
+              {
+                "x": 880.0,
+                "y": 540.0
+              },
+              {
+                "x": 780.0,
+                "y": 370.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Stredná",
+            "coordinates": [
+              {
+                "x": 780.0,
+                "y": 370.0
+              },
+              {
+                "x": 640.0,
+                "y": 187.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Iota",
+                "coordinateStop": {
+                  "x": 761.7716643075245,
+                  "y": 346.17296120197847
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica11",
+            "coordinates": [
+              {
+                "x": 640.0,
+                "y": 187.0
+              },
+              {
+                "x": 490.0,
+                "y": 260.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica6",
+            "coordinates": [
+              {
+                "x": 490.0,
+                "y": 260.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 330.0,
+        "y": 200.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "32",
+        "streets": [
+          {
+            "streetID": "Elgartova",
+            "coordinates": [
+              {
+                "x": 330.0,
+                "y": 200.0
+              },
+              {
+                "x": 540.0,
+                "y": 70.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Malinovského",
+            "coordinates": [
+              {
+                "x": 540.0,
+                "y": 70.0
+              },
+              {
+                "x": 740.0,
+                "y": 110.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Čachtická",
+                "coordinateStop": {
+                  "x": 579.2232270276368,
+                  "y": 77.84464540552736
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Merhautova",
+            "coordinates": [
+              {
+                "x": 740.0,
+                "y": 110.0
+              },
+              {
+                "x": 980.0,
+                "y": 280.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Airova",
+                "coordinateStop": {
+                  "x": 837.9229377321986,
+                  "y": 179.3620808936407
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Česká",
+            "coordinates": [
+              {
+                "x": 980.0,
+                "y": 280.0
+              },
+              {
+                "x": 1000.0,
+                "y": 440.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Vedľajšia",
+                "coordinateStop": {
+                  "x": 984.9613893835683,
+                  "y": 319.6911150685467
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Konečného",
+            "coordinates": [
+              {
+                "x": 1000.0,
+                "y": 440.0
+              },
+              {
+                "x": 880.0,
+                "y": 540.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Hlavná",
+            "coordinates": [
+              {
+                "x": 880.0,
+                "y": 540.0
+              },
+              {
+                "x": 780.0,
+                "y": 370.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Stredná",
+            "coordinates": [
+              {
+                "x": 780.0,
+                "y": 370.0
+              },
+              {
+                "x": 640.0,
+                "y": 187.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Iota",
+                "coordinateStop": {
+                  "x": 761.7716643075245,
+                  "y": 346.17296120197847
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica11",
+            "coordinates": [
+              {
+                "x": 640.0,
+                "y": 187.0
+              },
+              {
+                "x": 490.0,
+                "y": 260.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica6",
+            "coordinates": [
+              {
+                "x": 490.0,
+                "y": 260.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 330.0,
+        "y": 200.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "32",
+        "streets": [
+          {
+            "streetID": "Elgartova",
+            "coordinates": [
+              {
+                "x": 330.0,
+                "y": 200.0
+              },
+              {
+                "x": 540.0,
+                "y": 70.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Malinovského",
+            "coordinates": [
+              {
+                "x": 540.0,
+                "y": 70.0
+              },
+              {
+                "x": 740.0,
+                "y": 110.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Čachtická",
+                "coordinateStop": {
+                  "x": 579.2232270276368,
+                  "y": 77.84464540552736
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Merhautova",
+            "coordinates": [
+              {
+                "x": 740.0,
+                "y": 110.0
+              },
+              {
+                "x": 980.0,
+                "y": 280.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Airova",
+                "coordinateStop": {
+                  "x": 837.9229377321986,
+                  "y": 179.3620808936407
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Česká",
+            "coordinates": [
+              {
+                "x": 980.0,
+                "y": 280.0
+              },
+              {
+                "x": 1000.0,
+                "y": 440.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Vedľajšia",
+                "coordinateStop": {
+                  "x": 984.9613893835683,
+                  "y": 319.6911150685467
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Konečného",
+            "coordinates": [
+              {
+                "x": 1000.0,
+                "y": 440.0
+              },
+              {
+                "x": 880.0,
+                "y": 540.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Hlavná",
+            "coordinates": [
+              {
+                "x": 880.0,
+                "y": 540.0
+              },
+              {
+                "x": 780.0,
+                "y": 370.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Stredná",
+            "coordinates": [
+              {
+                "x": 780.0,
+                "y": 370.0
+              },
+              {
+                "x": 640.0,
+                "y": 187.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Iota",
+                "coordinateStop": {
+                  "x": 761.7716643075245,
+                  "y": 346.17296120197847
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica11",
+            "coordinates": [
+              {
+                "x": 640.0,
+                "y": 187.0
+              },
+              {
+                "x": 490.0,
+                "y": 260.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica6",
+            "coordinates": [
+              {
+                "x": 490.0,
+                "y": 260.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 330.0,
+        "y": 200.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "32",
+        "streets": [
+          {
+            "streetID": "Elgartova",
+            "coordinates": [
+              {
+                "x": 330.0,
+                "y": 200.0
+              },
+              {
+                "x": 540.0,
+                "y": 70.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Malinovského",
+            "coordinates": [
+              {
+                "x": 540.0,
+                "y": 70.0
+              },
+              {
+                "x": 740.0,
+                "y": 110.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Čachtická",
+                "coordinateStop": {
+                  "x": 579.2232270276368,
+                  "y": 77.84464540552736
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Merhautova",
+            "coordinates": [
+              {
+                "x": 740.0,
+                "y": 110.0
+              },
+              {
+                "x": 980.0,
+                "y": 280.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Airova",
+                "coordinateStop": {
+                  "x": 837.9229377321986,
+                  "y": 179.3620808936407
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Česká",
+            "coordinates": [
+              {
+                "x": 980.0,
+                "y": 280.0
+              },
+              {
+                "x": 1000.0,
+                "y": 440.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Vedľajšia",
+                "coordinateStop": {
+                  "x": 984.9613893835683,
+                  "y": 319.6911150685467
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Konečného",
+            "coordinates": [
+              {
+                "x": 1000.0,
+                "y": 440.0
+              },
+              {
+                "x": 880.0,
+                "y": 540.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Hlavná",
+            "coordinates": [
+              {
+                "x": 880.0,
+                "y": 540.0
+              },
+              {
+                "x": 780.0,
+                "y": 370.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Stredná",
+            "coordinates": [
+              {
+                "x": 780.0,
+                "y": 370.0
+              },
+              {
+                "x": 640.0,
+                "y": 187.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Iota",
+                "coordinateStop": {
+                  "x": 761.7716643075245,
+                  "y": 346.17296120197847
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica11",
+            "coordinates": [
+              {
+                "x": 640.0,
+                "y": 187.0
+              },
+              {
+                "x": 490.0,
+                "y": 260.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica6",
+            "coordinates": [
+              {
+                "x": 490.0,
+                "y": 260.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 330.0,
+        "y": 200.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "32",
+        "streets": [
+          {
+            "streetID": "Elgartova",
+            "coordinates": [
+              {
+                "x": 330.0,
+                "y": 200.0
+              },
+              {
+                "x": 540.0,
+                "y": 70.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Malinovského",
+            "coordinates": [
+              {
+                "x": 540.0,
+                "y": 70.0
+              },
+              {
+                "x": 740.0,
+                "y": 110.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Čachtická",
+                "coordinateStop": {
+                  "x": 579.2232270276368,
+                  "y": 77.84464540552736
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Merhautova",
+            "coordinates": [
+              {
+                "x": 740.0,
+                "y": 110.0
+              },
+              {
+                "x": 980.0,
+                "y": 280.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Airova",
+                "coordinateStop": {
+                  "x": 837.9229377321986,
+                  "y": 179.3620808936407
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Česká",
+            "coordinates": [
+              {
+                "x": 980.0,
+                "y": 280.0
+              },
+              {
+                "x": 1000.0,
+                "y": 440.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Vedľajšia",
+                "coordinateStop": {
+                  "x": 984.9613893835683,
+                  "y": 319.6911150685467
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Konečného",
+            "coordinates": [
+              {
+                "x": 1000.0,
+                "y": 440.0
+              },
+              {
+                "x": 880.0,
+                "y": 540.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Hlavná",
+            "coordinates": [
+              {
+                "x": 880.0,
+                "y": 540.0
+              },
+              {
+                "x": 780.0,
+                "y": 370.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Stredná",
+            "coordinates": [
+              {
+                "x": 780.0,
+                "y": 370.0
+              },
+              {
+                "x": 640.0,
+                "y": 187.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Iota",
+                "coordinateStop": {
+                  "x": 761.7716643075245,
+                  "y": 346.17296120197847
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica11",
+            "coordinates": [
+              {
+                "x": 640.0,
+                "y": 187.0
+              },
+              {
+                "x": 490.0,
+                "y": 260.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica6",
+            "coordinates": [
+              {
+                "x": 490.0,
+                "y": 260.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 330.0,
+        "y": 200.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "32",
+        "streets": [
+          {
+            "streetID": "Elgartova",
+            "coordinates": [
+              {
+                "x": 330.0,
+                "y": 200.0
+              },
+              {
+                "x": 540.0,
+                "y": 70.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Malinovského",
+            "coordinates": [
+              {
+                "x": 540.0,
+                "y": 70.0
+              },
+              {
+                "x": 740.0,
+                "y": 110.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Čachtická",
+                "coordinateStop": {
+                  "x": 579.2232270276368,
+                  "y": 77.84464540552736
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Merhautova",
+            "coordinates": [
+              {
+                "x": 740.0,
+                "y": 110.0
+              },
+              {
+                "x": 980.0,
+                "y": 280.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Airova",
+                "coordinateStop": {
+                  "x": 837.9229377321986,
+                  "y": 179.3620808936407
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Česká",
+            "coordinates": [
+              {
+                "x": 980.0,
+                "y": 280.0
+              },
+              {
+                "x": 1000.0,
+                "y": 440.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Vedľajšia",
+                "coordinateStop": {
+                  "x": 984.9613893835683,
+                  "y": 319.6911150685467
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Konečného",
+            "coordinates": [
+              {
+                "x": 1000.0,
+                "y": 440.0
+              },
+              {
+                "x": 880.0,
+                "y": 540.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Hlavná",
+            "coordinates": [
+              {
+                "x": 880.0,
+                "y": 540.0
+              },
+              {
+                "x": 780.0,
+                "y": 370.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Stredná",
+            "coordinates": [
+              {
+                "x": 780.0,
+                "y": 370.0
+              },
+              {
+                "x": 640.0,
+                "y": 187.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Iota",
+                "coordinateStop": {
+                  "x": 761.7716643075245,
+                  "y": 346.17296120197847
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica11",
+            "coordinates": [
+              {
+                "x": 640.0,
+                "y": 187.0
+              },
+              {
+                "x": 490.0,
+                "y": 260.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica6",
+            "coordinates": [
+              {
+                "x": 490.0,
+                "y": 260.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 330.0,
+        "y": 200.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "32",
+        "streets": [
+          {
+            "streetID": "Elgartova",
+            "coordinates": [
+              {
+                "x": 330.0,
+                "y": 200.0
+              },
+              {
+                "x": 540.0,
+                "y": 70.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Malinovského",
+            "coordinates": [
+              {
+                "x": 540.0,
+                "y": 70.0
+              },
+              {
+                "x": 740.0,
+                "y": 110.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Čachtická",
+                "coordinateStop": {
+                  "x": 579.2232270276368,
+                  "y": 77.84464540552736
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Merhautova",
+            "coordinates": [
+              {
+                "x": 740.0,
+                "y": 110.0
+              },
+              {
+                "x": 980.0,
+                "y": 280.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Airova",
+                "coordinateStop": {
+                  "x": 837.9229377321986,
+                  "y": 179.3620808936407
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Česká",
+            "coordinates": [
+              {
+                "x": 980.0,
+                "y": 280.0
+              },
+              {
+                "x": 1000.0,
+                "y": 440.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Vedľajšia",
+                "coordinateStop": {
+                  "x": 984.9613893835683,
+                  "y": 319.6911150685467
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Konečného",
+            "coordinates": [
+              {
+                "x": 1000.0,
+                "y": 440.0
+              },
+              {
+                "x": 880.0,
+                "y": 540.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Hlavná",
+            "coordinates": [
+              {
+                "x": 880.0,
+                "y": 540.0
+              },
+              {
+                "x": 780.0,
+                "y": 370.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Stredná",
+            "coordinates": [
+              {
+                "x": 780.0,
+                "y": 370.0
+              },
+              {
+                "x": 640.0,
+                "y": 187.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Iota",
+                "coordinateStop": {
+                  "x": 761.7716643075245,
+                  "y": 346.17296120197847
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica11",
+            "coordinates": [
+              {
+                "x": 640.0,
+                "y": 187.0
+              },
+              {
+                "x": 490.0,
+                "y": 260.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica6",
+            "coordinates": [
+              {
+                "x": 490.0,
+                "y": 260.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 330.0,
+        "y": 200.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "32",
+        "streets": [
+          {
+            "streetID": "Elgartova",
+            "coordinates": [
+              {
+                "x": 330.0,
+                "y": 200.0
+              },
+              {
+                "x": 540.0,
+                "y": 70.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Malinovského",
+            "coordinates": [
+              {
+                "x": 540.0,
+                "y": 70.0
+              },
+              {
+                "x": 740.0,
+                "y": 110.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Čachtická",
+                "coordinateStop": {
+                  "x": 579.2232270276368,
+                  "y": 77.84464540552736
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Merhautova",
+            "coordinates": [
+              {
+                "x": 740.0,
+                "y": 110.0
+              },
+              {
+                "x": 980.0,
+                "y": 280.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Airova",
+                "coordinateStop": {
+                  "x": 837.9229377321986,
+                  "y": 179.3620808936407
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Česká",
+            "coordinates": [
+              {
+                "x": 980.0,
+                "y": 280.0
+              },
+              {
+                "x": 1000.0,
+                "y": 440.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Vedľajšia",
+                "coordinateStop": {
+                  "x": 984.9613893835683,
+                  "y": 319.6911150685467
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Konečného",
+            "coordinates": [
+              {
+                "x": 1000.0,
+                "y": 440.0
+              },
+              {
+                "x": 880.0,
+                "y": 540.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Hlavná",
+            "coordinates": [
+              {
+                "x": 880.0,
+                "y": 540.0
+              },
+              {
+                "x": 780.0,
+                "y": 370.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Stredná",
+            "coordinates": [
+              {
+                "x": 780.0,
+                "y": 370.0
+              },
+              {
+                "x": 640.0,
+                "y": 187.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Iota",
+                "coordinateStop": {
+                  "x": 761.7716643075245,
+                  "y": 346.17296120197847
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica11",
+            "coordinates": [
+              {
+                "x": 640.0,
+                "y": 187.0
+              },
+              {
+                "x": 490.0,
+                "y": 260.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica6",
+            "coordinates": [
+              {
+                "x": 490.0,
+                "y": 260.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 330.0,
+        "y": 200.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "32",
+        "streets": [
+          {
+            "streetID": "Elgartova",
+            "coordinates": [
+              {
+                "x": 330.0,
+                "y": 200.0
+              },
+              {
+                "x": 540.0,
+                "y": 70.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Malinovského",
+            "coordinates": [
+              {
+                "x": 540.0,
+                "y": 70.0
+              },
+              {
+                "x": 740.0,
+                "y": 110.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Čachtická",
+                "coordinateStop": {
+                  "x": 579.2232270276368,
+                  "y": 77.84464540552736
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Merhautova",
+            "coordinates": [
+              {
+                "x": 740.0,
+                "y": 110.0
+              },
+              {
+                "x": 980.0,
+                "y": 280.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Airova",
+                "coordinateStop": {
+                  "x": 837.9229377321986,
+                  "y": 179.3620808936407
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Česká",
+            "coordinates": [
+              {
+                "x": 980.0,
+                "y": 280.0
+              },
+              {
+                "x": 1000.0,
+                "y": 440.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Vedľajšia",
+                "coordinateStop": {
+                  "x": 984.9613893835683,
+                  "y": 319.6911150685467
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Konečného",
+            "coordinates": [
+              {
+                "x": 1000.0,
+                "y": 440.0
+              },
+              {
+                "x": 880.0,
+                "y": 540.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Hlavná",
+            "coordinates": [
+              {
+                "x": 880.0,
+                "y": 540.0
+              },
+              {
+                "x": 780.0,
+                "y": 370.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Stredná",
+            "coordinates": [
+              {
+                "x": 780.0,
+                "y": 370.0
+              },
+              {
+                "x": 640.0,
+                "y": 187.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Iota",
+                "coordinateStop": {
+                  "x": 761.7716643075245,
+                  "y": 346.17296120197847
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica11",
+            "coordinates": [
+              {
+                "x": 640.0,
+                "y": 187.0
+              },
+              {
+                "x": 490.0,
+                "y": 260.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica6",
+            "coordinates": [
+              {
+                "x": 490.0,
+                "y": 260.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    },
+    {
+      "position": {
+        "x": 330.0,
+        "y": 200.0
+      },
+      "distance": 0.0,
+      "speed": 15.0,
+      "line": {
+        "lineID": "32",
+        "streets": [
+          {
+            "streetID": "Elgartova",
+            "coordinates": [
+              {
+                "x": 330.0,
+                "y": 200.0
+              },
+              {
+                "x": 540.0,
+                "y": 70.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Malinovského",
+            "coordinates": [
+              {
+                "x": 540.0,
+                "y": 70.0
+              },
+              {
+                "x": 740.0,
+                "y": 110.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Čachtická",
+                "coordinateStop": {
+                  "x": 579.2232270276368,
+                  "y": 77.84464540552736
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Merhautova",
+            "coordinates": [
+              {
+                "x": 740.0,
+                "y": 110.0
+              },
+              {
+                "x": 980.0,
+                "y": 280.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Airova",
+                "coordinateStop": {
+                  "x": 837.9229377321986,
+                  "y": 179.3620808936407
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Česká",
+            "coordinates": [
+              {
+                "x": 980.0,
+                "y": 280.0
+              },
+              {
+                "x": 1000.0,
+                "y": 440.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Vedľajšia",
+                "coordinateStop": {
+                  "x": 984.9613893835683,
+                  "y": 319.6911150685467
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Konečného",
+            "coordinates": [
+              {
+                "x": 1000.0,
+                "y": 440.0
+              },
+              {
+                "x": 880.0,
+                "y": 540.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Hlavná",
+            "coordinates": [
+              {
+                "x": 880.0,
+                "y": 540.0
+              },
+              {
+                "x": 780.0,
+                "y": 370.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Stredná",
+            "coordinates": [
+              {
+                "x": 780.0,
+                "y": 370.0
+              },
+              {
+                "x": 640.0,
+                "y": 187.0
+              }
+            ],
+            "stops": [
+              {
+                "stopID": "Iota",
+                "coordinateStop": {
+                  "x": 761.7716643075245,
+                  "y": 346.17296120197847
+                }
+              }
+            ],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica11",
+            "coordinates": [
+              {
+                "x": 640.0,
+                "y": 187.0
+              },
+              {
+                "x": 490.0,
+                "y": 260.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          },
+          {
+            "streetID": "Ulica6",
+            "coordinates": [
+              {
+                "x": 490.0,
+                "y": 260.0
+              },
+              {
+                "x": 330.0,
+                "y": 200.0
+              }
+            ],
+            "stops": [],
+            "delay": 1
+          }
+        ],
+        "busCountQueue": 10
+      },
+      "workShiftLength": 8
+    }
+  ],
+  "lines": [
+    {
+      "lineID": "53",
+      "streets": [
+        {
+          "streetID": "Vávrova",
+          "coordinates": [
+            {
+              "x": 68.0,
+              "y": 50.0
+            },
+            {
+              "x": 30.0,
+              "y": 240.0
+            }
+          ],
+          "stops": [
+            {
+              "stopID": "Pepegova",
+              "coordinateStop": {
+                "x": 50.349547837563435,
+                "y": 138.2522608121828
+              }
+            }
+          ],
+          "delay": 1
+        },
+        {
+          "streetID": "Tahpea",
+          "coordinates": [
+            {
+              "x": 30.0,
+              "y": 240.0
+            },
+            {
+              "x": 150.0,
+              "y": 360.0
+            }
+          ],
+          "stops": [],
+          "delay": 1
+        },
+        {
+          "streetID": "Tailorova",
+          "coordinates": [
+            {
+              "x": 150.0,
+              "y": 360.0
+            },
+            {
+              "x": 80.0,
+              "y": 610.0
+            }
+          ],
+          "stops": [
+            {
+              "stopID": "Žiškova",
+              "coordinateStop": {
+                "x": 123.03700744800291,
+                "y": 456.29640197141816
+              }
+            }
+          ],
+          "delay": 1
+        },
+        {
+          "streetID": "Frizly",
+          "coordinates": [
+            {
+              "x": 80.0,
+              "y": 610.0
+            },
+            {
+              "x": 220.0,
+              "y": 790.0
+            }
+          ],
+          "stops": [],
+          "delay": 1
+        },
+        {
+          "streetID": "Vivova",
+          "coordinates": [
+            {
+              "x": 220.0,
+              "y": 790.0
+            },
+            {
+              "x": 400.0,
+              "y": 600.0
+            }
+          ],
+          "stops": [
+            {
+              "stopID": "Zochova",
+              "coordinateStop": {
+                "x": 233.75489295821566,
+                "y": 775.4809463218835
+              }
+            }
+          ],
+          "delay": 1
+        },
+        {
+          "streetID": "Trnavská",
+          "coordinates": [
+            {
+              "x": 400.0,
+              "y": 600.0
+            },
+            {
+              "x": 270.0,
+              "y": 420.0
+            }
+          ],
+          "stops": [],
+          "delay": 1
+        },
+        {
+          "streetID": "Mestská",
+          "coordinates": [
+            {
+              "x": 270.0,
+              "y": 420.0
+            },
+            {
+              "x": 330.0,
+              "y": 200.0
+            }
+          ],
+          "stops": [
+            {
+              "stopID": "Zdráhalova",
+              "coordinateStop": {
+                "x": 285.78704434752655,
+                "y": 362.1141707257361
+              }
+            }
+          ],
+          "delay": 1
+        },
+        {
+          "streetID": "Sergeiova",
+          "coordinates": [
+            {
+              "x": 330.0,
+              "y": 200.0
+            },
+            {
+              "x": 68.0,
+              "y": 50.0
+            }
+          ],
+          "stops": [
+            {
+              "stopID": "Titania",
+              "coordinateStop": {
+                "x": 251.89483421263472,
+                "y": 155.2833020301344
+              }
+            }
+          ],
+          "delay": 1
+        }
+      ],
+      "busCountQueue": 10
+    },
+    {
+      "lineID": "84",
+      "streets": [
+        {
+          "streetID": "Ulica4",
+          "coordinates": [
+            {
+              "x": 400.0,
+              "y": 600.0
+            },
+            {
+              "x": 600.0,
+              "y": 600.0
+            }
+          ],
+          "stops": [
+            {
+              "stopID": "Koniklecova",
+              "coordinateStop": {
+                "x": 450.0,
+                "y": 600.0
+              }
+            }
+          ],
+          "delay": 1
+        },
+        {
+          "streetID": "Ulica5",
+          "coordinates": [
+            {
+              "x": 600.0,
+              "y": 600.0
+            },
+            {
+              "x": 700.0,
+              "y": 500.0
+            }
+          ],
+          "stops": [
+            {
+              "stopID": "Chirana",
+              "coordinateStop": {
+                "x": 663.6396103067892,
+                "y": 536.3603896932108
+              }
+            }
+          ],
+          "delay": 1
+        },
+        {
+          "streetID": "Ulica10",
+          "coordinates": [
+            {
+              "x": 700.0,
+              "y": 500.0
+            },
+            {
+              "x": 640.0,
+              "y": 187.0
+            }
+          ],
+          "stops": [
+            {
+              "stopID": "Ferkova",
+              "coordinateStop": {
+                "x": 660.4642522798275,
+                "y": 293.7551827264334
+              }
+            }
+          ],
+          "delay": 1
+        },
+        {
+          "streetID": "Ulica11",
+          "coordinates": [
+            {
+              "x": 640.0,
+              "y": 187.0
+            },
+            {
+              "x": 490.0,
+              "y": 260.0
+            }
+          ],
+          "stops": [],
+          "delay": 1
+        },
+        {
+          "streetID": "Ulica6",
+          "coordinates": [
+            {
+              "x": 490.0,
+              "y": 260.0
+            },
+            {
+              "x": 330.0,
+              "y": 200.0
+            }
+          ],
+          "stops": [],
+          "delay": 1
+        },
+        {
+          "streetID": "Mestská",
+          "coordinates": [
+            {
+              "x": 270.0,
+              "y": 420.0
+            },
+            {
+              "x": 330.0,
+              "y": 200.0
+            }
+          ],
+          "stops": [
+            {
+              "stopID": "Zdráhalova",
+              "coordinateStop": {
+                "x": 285.78704434752655,
+                "y": 362.1141707257361
+              }
+            }
+          ],
+          "delay": 1
+        },
+        {
+          "streetID": "Trnavská",
+          "coordinates": [
+            {
+              "x": 400.0,
+              "y": 600.0
+            },
+            {
+              "x": 270.0,
+              "y": 420.0
+            }
+          ],
+          "stops": [],
+          "delay": 1
+        }
+      ],
+      "busCountQueue": 10
+    },
+    {
+      "lineID": "32",
+      "streets": [
+        {
+          "streetID": "Elgartova",
+          "coordinates": [
+            {
+              "x": 330.0,
+              "y": 200.0
+            },
+            {
+              "x": 540.0,
+              "y": 70.0
+            }
+          ],
+          "stops": [],
+          "delay": 1
+        },
+        {
+          "streetID": "Malinovského",
+          "coordinates": [
+            {
+              "x": 540.0,
+              "y": 70.0
+            },
+            {
+              "x": 740.0,
+              "y": 110.0
+            }
+          ],
+          "stops": [
+            {
+              "stopID": "Čachtická",
+              "coordinateStop": {
+                "x": 579.2232270276368,
+                "y": 77.84464540552736
+              }
+            }
+          ],
+          "delay": 1
+        },
+        {
+          "streetID": "Merhautova",
+          "coordinates": [
+            {
+              "x": 740.0,
+              "y": 110.0
+            },
+            {
+              "x": 980.0,
+              "y": 280.0
+            }
+          ],
+          "stops": [
+            {
+              "stopID": "Airova",
+              "coordinateStop": {
+                "x": 837.9229377321986,
+                "y": 179.3620808936407
+              }
+            }
+          ],
+          "delay": 1
+        },
+        {
+          "streetID": "Česká",
+          "coordinates": [
+            {
+              "x": 980.0,
+              "y": 280.0
+            },
+            {
+              "x": 1000.0,
+              "y": 440.0
+            }
+          ],
+          "stops": [
+            {
+              "stopID": "Vedľajšia",
+              "coordinateStop": {
+                "x": 984.9613893835683,
+                "y": 319.6911150685467
+              }
+            }
+          ],
+          "delay": 1
+        },
+        {
+          "streetID": "Konečného",
+          "coordinates": [
+            {
+              "x": 1000.0,
+              "y": 440.0
+            },
+            {
+              "x": 880.0,
+              "y": 540.0
+            }
+          ],
+          "stops": [],
+          "delay": 1
+        },
+        {
+          "streetID": "Hlavná",
+          "coordinates": [
+            {
+              "x": 880.0,
+              "y": 540.0
+            },
+            {
+              "x": 780.0,
+              "y": 370.0
+            }
+          ],
+          "stops": [],
+          "delay": 1
+        },
+        {
+          "streetID": "Stredná",
+          "coordinates": [
+            {
+              "x": 780.0,
+              "y": 370.0
+            },
+            {
+              "x": 640.0,
+              "y": 187.0
+            }
+          ],
+          "stops": [
+            {
+              "stopID": "Iota",
+              "coordinateStop": {
+                "x": 761.7716643075245,
+                "y": 346.17296120197847
+              }
+            }
+          ],
+          "delay": 1
+        },
+        {
+          "streetID": "Ulica11",
+          "coordinates": [
+            {
+              "x": 640.0,
+              "y": 187.0
+            },
+            {
+              "x": 490.0,
+              "y": 260.0
+            }
+          ],
+          "stops": [],
+          "delay": 1
+        },
+        {
+          "streetID": "Ulica6",
+          "coordinates": [
+            {
+              "x": 490.0,
+              "y": 260.0
+            },
+            {
+              "x": 330.0,
+              "y": 200.0
+            }
+          ],
+          "stops": [],
+          "delay": 1
+        }
+      ],
+      "busCountQueue": 10
+    }
+  ]
+}

@@ -1,10 +1,9 @@
-
 /*
  * Soubor: Stop.java
  * Ukol c. 2
  * Autor: Marek Ziska, xziska03@stud.fit.vutbr.cz
  * Skupina: 2BIB
- * Datum 02.04.2020
+ * Datum 17.05.2020
  */
 
 package ija.projekt;
@@ -25,7 +24,6 @@ public interface Stop {
      * @return Identifikátor zastávky.
      */
     String getId();
-
 
     /**
      * Vrátí pozici zastávky.
