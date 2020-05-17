@@ -31,7 +31,7 @@ public class Main extends Application {
      * @throws IOException
      */
     private void saveToJson(MyMap map) throws IOException {
-        try (Writer writer = new FileWriter("/Users/marekziska/Desktop/IJA/UKOLY/IJA-PROJEKT/data/loadout.json")) {
+        try (Writer writer = new FileWriter(System.getProperty("user.dir") + "/data/loadout.json")) {
             Gson gson = new GsonBuilder().setPrettyPrinting().create();
             gson.toJson(map, writer);
         }
@@ -50,7 +50,7 @@ public class Main extends Application {
 
         //generateData();
 
-        BufferedReader reader = new BufferedReader(new FileReader("/Users/marekziska/Desktop/IJA/UKOLY/IJA-PROJEKT/data/loadout.json"));
+        BufferedReader reader = new BufferedReader(new FileReader(System.getProperty("user.dir") + "/data/loadout.json"));
         Gson gson = new Gson();
         MyMap map = gson.fromJson(reader, MyMap.class);
         map.initTransientParts();
